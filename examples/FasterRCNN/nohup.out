@@ -1,0 +1,1116 @@
+Here lies the name coco_train2017 and key class_names
+DatasetRegistry._metadata_registry: name=coco_train2017, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_val2017 and key class_names
+DatasetRegistry._metadata_registry: name=coco_val2017, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_train2014 and key class_names
+DatasetRegistry._metadata_registry: name=coco_train2014, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_val2014 and key class_names
+DatasetRegistry._metadata_registry: name=coco_val2014, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_valminusminival2014 and key class_names
+DatasetRegistry._metadata_registry: name=coco_valminusminival2014, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_minival2014 and key class_names
+DatasetRegistry._metadata_registry: name=coco_minival2014, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name coco_val2017_100 and key class_names
+DatasetRegistry._metadata_registry: name=coco_val2017_100, key=class_names, value=['BG', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush']
+Here lies the name hologram_train and key class_names
+DatasetRegistry._metadata_registry: name=hologram_train, key=class_names, value=['HG', 'hologram']
+Here lies the name hologram_val and key class_names
+DatasetRegistry._metadata_registry: name=hologram_val, key=class_names, value=['HG', 'hologram']
+[32m[0529 00:58:56 @config.py:330][0m Config: ------------------------------------------
+{'BACKBONE': {'FREEZE_AFFINE': False,
+              'FREEZE_AT': 2,
+              'NORM': 'FreezeBN',
+              'RESNET_NUM_BLOCKS': [3, 4, 6, 3],
+              'STRIDE_1X1': False,
+              'TF_PAD_MODE': False,
+              'WEIGHTS': ''},
+ 'CASCADE': {'BBOX_REG_WEIGHTS': [[10.0, 10.0, 5.0, 5.0], [20.0, 20.0, 10.0, 10.0],
+                                  [30.0, 30.0, 15.0, 15.0]],
+             'IOUS': [0.5, 0.6, 0.7]},
+ 'DATA': {'ABSOLUTE_COORD': True,
+          'BASEDIR': '/media/xendity/data/atiqah/dataset/training_dataset/batch_3_1',
+          'CLASS_NAMES': ['HG', 'hologram'],
+          'FILTER_EMPTY_ANNOTATIONS': True,
+          'NUM_CATEGORY': 1,
+          'NUM_WORKERS': 10,
+          'TRAIN': ('hologram_train',),
+          'VAL': ('hologram_val',)},
+ 'FPN': {'ANCHOR_STRIDES': (4, 8, 16, 32, 64),
+         'CASCADE': False,
+         'FRCNN_CONV_HEAD_DIM': 256,
+         'FRCNN_FC_HEAD_DIM': 1024,
+         'FRCNN_HEAD_FUNC': 'fastrcnn_2fc_head',
+         'MRCNN_HEAD_FUNC': 'maskrcnn_up4conv_head',
+         'NORM': 'None',
+         'NUM_CHANNEL': 256,
+         'PROPOSAL_MODE': 'Level',
+         'RESOLUTION_REQUIREMENT': 32},
+ 'FRCNN': {'BATCH_PER_IM': 512,
+           'BBOX_REG_WEIGHTS': [10.0, 10.0, 5.0, 5.0],
+           'FG_RATIO': 0.25,
+           'FG_THRESH': 0.5},
+ 'MODE_FPN': True,
+ 'MODE_MASK': True,
+ 'MRCNN': {'ACCURATE_PASTE': True, 'HEAD_DIM': 256},
+ 'PREPROC': {'MAX_SIZE': 1344.0,
+             'PIXEL_MEAN': [123.675, 116.28, 103.53],
+             'PIXEL_STD': [58.395, 57.12, 57.375],
+             'TEST_SHORT_EDGE_SIZE': 800,
+             'TRAIN_SHORT_EDGE_SIZE': [800, 800]},
+ 'RPN': {'ANCHOR_RATIOS': (0.5, 1.0, 2.0),
+         'ANCHOR_SIZES': (32, 64, 128, 256, 512),
+         'ANCHOR_STRIDE': 16,
+         'BATCH_PER_IM': 256,
+         'CROWD_OVERLAP_THRESH': 9.99,
+         'FG_RATIO': 0.5,
+         'HEAD_DIM': 1024,
+         'MIN_SIZE': 0,
+         'NEGATIVE_ANCHOR_THRESH': 0.3,
+         'NUM_ANCHOR': 15,
+         'POSITIVE_ANCHOR_THRESH': 0.7,
+         'PROPOSAL_NMS_THRESH': 0.7,
+         'TEST_PER_LEVEL_NMS_TOPK': 1000,
+         'TEST_POST_NMS_TOPK': 1000,
+         'TEST_PRE_NMS_TOPK': 6000,
+         'TRAIN_PER_LEVEL_NMS_TOPK': 2000,
+         'TRAIN_POST_NMS_TOPK': 2000,
+         'TRAIN_PRE_NMS_TOPK': 12000},
+ 'TEST': {'FRCNN_NMS_THRESH': 0.5,
+          'RESULTS_PER_IM': 100,
+          'RESULT_SCORE_THRESH': 0.05,
+          'RESULT_SCORE_THRESH_VIS': 0.5},
+ 'TRAIN': {'BASE_LR': 0.01,
+           'CHECKPOINT_PERIOD': 20,
+           'EVAL_PERIOD': 50,
+           'LR_SCHEDULE': '1x',
+           'NUM_GPUS': 2,
+           'STARTING_EPOCH': 1,
+           'STEPS_PER_EPOCH': 500,
+           'WARMUP': 1000,
+           'WARMUP_INIT_LR': 1e-05,
+           'WEIGHT_DECAY': 0.0001},
+ 'TRAINER': 'replicated',
+ 'USE_GPU': True}
+WARNING:tensorflow:From /media/xendity/data/atiqah/mytensorpack/hologram_segmentation/examples/FasterRCNN/modeling/backbone.py:197: The name tf.ceil is deprecated. Please use tf.math.ceil instead.
+
+predict using ckpt model
+[32m[0529 00:58:56 @registry.py:90][0m 'conv0': [1, 3, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'pool0': [1, 64, ?, ?] --> [1, 64, ?, ?]
+WARNING:tensorflow:From /media/xendity/data/atiqah/mytensorpack/hologram_segmentation/examples/FasterRCNN/modeling/backbone.py:161: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block0/conv1': [1, 64, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block0/conv2': [1, 64, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block0/conv3': [1, 64, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block0/convshortcut': [1, 64, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block1/conv1': [1, 256, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block1/conv2': [1, 64, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block1/conv3': [1, 64, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block2/conv1': [1, 256, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block2/conv2': [1, 64, ?, ?] --> [1, 64, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group0/block2/conv3': [1, 64, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block0/conv1': [1, 256, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block0/conv2': [1, 128, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block0/conv3': [1, 128, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block0/convshortcut': [1, 256, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block1/conv1': [1, 512, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block1/conv2': [1, 128, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block1/conv3': [1, 128, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block2/conv1': [1, 512, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block2/conv2': [1, 128, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block2/conv3': [1, 128, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block3/conv1': [1, 512, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block3/conv2': [1, 128, ?, ?] --> [1, 128, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group1/block3/conv3': [1, 128, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block0/conv1': [1, 512, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block0/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block0/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block0/convshortcut': [1, 512, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block1/conv1': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block1/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block1/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block2/conv1': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block2/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block2/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block3/conv1': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block3/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block3/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block4/conv1': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block4/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block4/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block5/conv1': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block5/conv2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:56 @registry.py:90][0m 'group2/block5/conv3': [1, 256, ?, ?] --> [1, 1024, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block0/conv1': [1, 1024, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block0/conv2': [1, 512, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block0/conv3': [1, 512, ?, ?] --> [1, 2048, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block0/convshortcut': [1, 1024, ?, ?] --> [1, 2048, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block1/conv1': [1, 2048, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block1/conv2': [1, 512, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block1/conv3': [1, 512, ?, ?] --> [1, 2048, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block2/conv1': [1, 2048, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block2/conv2': [1, 512, ?, ?] --> [1, 512, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m 'group3/block2/conv3': [1, 512, ?, ?] --> [1, 2048, ?, ?]
+[32m[0529 00:58:57 @registry.py:80][0m 'fpn' input: [1, 256, ?, ?], [1, 512, ?, ?], [1, 1024, ?, ?], [1, 2048, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/lateral_1x1_c2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/lateral_1x1_c3': [1, 512, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/lateral_1x1_c4': [1, 1024, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/lateral_1x1_c5': [1, 2048, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/upsample_lat5': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/upsample_lat4': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/upsample_lat3': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/posthoc_3x3_p2': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/posthoc_3x3_p3': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/posthoc_3x3_p4': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/posthoc_3x3_p5': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'fpn/maxpool_p6': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:93][0m 'fpn' output: [1, 256, ?, ?], [1, 256, ?, ?], [1, 256, ?, ?], [1, 256, ?, ?], [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:80][0m 'rpn' input: [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'rpn/conv0': [1, 256, ?, ?] --> [1, 256, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'rpn/class': [1, 256, ?, ?] --> [1, 3, ?, ?]
+[32m[0529 00:58:57 @registry.py:90][0m   'rpn/box': [1, 256, ?, ?] --> [1, 12, ?, ?]
+[32m[0529 00:58:57 @registry.py:93][0m 'rpn' output: [?, ?, 3], [?, ?, 3, 4]
+[32m[0529 00:58:57 @registry.py:80][0m 'fastrcnn' input: [?, 256, 7, 7]
+[32m[0529 00:58:57 @registry.py:90][0m   'fastrcnn/fc6': [?, 256, 7, 7] --> [?, 1024]
+[32m[0529 00:58:57 @registry.py:90][0m   'fastrcnn/fc7': [?, 1024] --> [?, 1024]
+[32m[0529 00:58:57 @registry.py:93][0m 'fastrcnn' output: [?, 1024]
+[32m[0529 00:58:57 @registry.py:80][0m 'fastrcnn/outputs' input: [?, 1024]
+[32m[0529 00:58:57 @registry.py:90][0m   'fastrcnn/outputs/class': [?, 1024] --> [?, 2]
+[32m[0529 00:58:57 @registry.py:90][0m   'fastrcnn/outputs/box': [?, 1024] --> [?, 8]
+[32m[0529 00:58:57 @registry.py:93][0m 'fastrcnn/outputs' output: [?, 2], [?, 2, 4]
+[32m[0529 00:58:57 @registry.py:80][0m 'maskrcnn' input: [?, 256, 14, 14]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/fcn0': [?, 256, 14, 14] --> [?, 256, 14, 14]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/fcn1': [?, 256, 14, 14] --> [?, 256, 14, 14]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/fcn2': [?, 256, 14, 14] --> [?, 256, 14, 14]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/fcn3': [?, 256, 14, 14] --> [?, 256, 14, 14]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/deconv': [?, 256, 14, 14] --> [?, 256, 28, 28]
+[32m[0529 00:58:57 @registry.py:90][0m   'maskrcnn/conv': [?, 256, 28, 28] --> [?, 1, 28, 28]
+[32m[0529 00:58:57 @registry.py:93][0m 'maskrcnn' output: [?, 1, 28, 28]
+[32m[0529 00:58:57 @collection.py:146][0m New collections created in tower : tf.GraphKeys.MODEL_VARIABLES of size 33
+[32m[0529 00:58:57 @sessinit.py:87][0m [5m[31mWRN[0m The following variables are in the checkpoint, but not found in the graph: global_step, learning_rate
+2021-05-29 00:58:58.006143: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-05-29 00:58:58.028809: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3199980000 Hz
+2021-05-29 00:58:58.028926: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556712207cc0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-05-29 00:58:58.028939: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-05-29 00:58:58.030404: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-05-29 00:58:58.158349: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.169844: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.170372: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5567121af430 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-05-29 00:58:58.170386: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2021-05-29 00:58:58.170390: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): NVIDIA GeForce GTX 1080 Ti, Compute Capability 6.1
+2021-05-29 00:58:58.171406: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.171765: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.759
+pciBusID: 0000:01:00.0
+2021-05-29 00:58:58.171809: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.172156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: NVIDIA GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:02:00.0
+2021-05-29 00:58:58.172311: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-05-29 00:58:58.173154: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-05-29 00:58:58.173858: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-05-29 00:58:58.174041: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-05-29 00:58:58.175003: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-05-29 00:58:58.175713: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-05-29 00:58:58.178097: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-05-29 00:58:58.178173: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.178585: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.178972: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.179354: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.179704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0, 1
+2021-05-29 00:58:58.179731: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-05-29 00:58:58.180561: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-29 00:58:58.180572: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 1 
+2021-05-29 00:58:58.180576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N Y 
+2021-05-29 00:58:58.180580: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 1:   Y N 
+2021-05-29 00:58:58.180676: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.181066: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.181450: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.181821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11066 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+2021-05-29 00:58:58.182271: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-29 00:58:58.182650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11066 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:02:00.0, compute capability: 6.1)
+[32m[0529 00:58:59 @sessinit.py:114][0m Restoring checkpoint from models/checkpoint/train_log/re_hologramv3_1/model-8000 ...
+2021-05-29 00:59:00.703417: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-05-29 00:59:00.807374: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+done loading OfflinePredictor
+outputs/train_val_cropped_benchmarking/
+['/media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/']
+now in category : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmY2ZTA0OWE4ZTBiZjA0MWU2OGI4MGJiNGY5MjEzNzg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjYzZmVkN2E4NGFjNDcyMTdlZjIwN2Q1ODcwY2Q0YTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDVjYzBkMGY1ZjJjYTQwMGYxY2Q5MTZlOGViMjc3YjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTViMmQ5YzQ1MzkyNGVkMWU0NmI3ZmFmYzg3M2Q3OGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTY4YTY2ZTk4MjE4ODUwNmYxMzE3NDQwNGMyZTY1YzE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTc0N2YzNTU5OWYxOTE1ZjkxN2FhMTZjNGUyZDQ3MTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjExYTRmMTVjMDRlZGNhNGI2YWJmMmQzYmM1ZWU5M2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGFkNDEwN2IyMTU4YjhmNWRiODhkM2FiN2U0OGNlOWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODEwMjQwOTM3MDRkNzYzMTdkZWIyMzU0ZmRhMTIxNGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjJhZmRkYzRlN2RmZjlkNjZiYjRlODUwMTM5Y2IzNWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjMzZGEwOTk3NWFmYmU4NzI2NmJhMDFhYjg3ZTQ5MTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjJiNzM3ODdmMzc0YTNlMGEwYjQ4ZTJjN2UwYzgzZDg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzBmMjlhZjkxNmVkMGM4Nzc5ZTk0Yzk4OTUzYzQwMmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODVjOTE4MDFjNjBlNTViYjg1Y2NiMjhmZGQxY2NhMjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDIzYTI0ZGEzNmY1MDgwM2RhZjg0NGE3YjcxMDI1MjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODNiZDE4MWVhMmY1MjU5NjVmZDg5ZjlhZmE5NzBhNTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjA2ZmYwNWEwMTFkYmFjYmIwZTljMTZkYzM4YTlkZjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTcxZmM3NjU0NTQxMmI5MjlhNjljODUwNDU3N2UzMDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDg5ZWFlOGRmOGI0M2UyMDgyNTVmNzNlMzkzYWZmYjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2Q3YTI3MGE1YmJkMDRlOGYzYTZmYmIyNWU3NzZhZGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDA4MWRhYTgwNWYxOWJkYjc4MzNhZTIzMGViYmYyYzE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjllYTYxZGMxZmQ4NTc4YTUyZGExYmM4N2Y1MWFiN2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODZhZDhhMzU0NDAzYmNiNTAzNGEwZWEyNWNjOWZkNWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzJiZDg1NWY5Mzg5OTUyMDNjNjRhNDY5NmExOGYzMjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Njg4NDYzOWQ1ODE0ODJlYjg2ZWNhZDAzY2ZjODM0OGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTExMDJkYmRlYmMxMGUyMzNjOTYyYzk3ZDlmMzMzMmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTFhMjk5ZDIxNDMwNDQ0MDI2ODA1YzYzNDYzYzYzZjg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjExYjIyYTZkZDc0ZjhiY2I5Y2UwMzBmYTUwZjYyZTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzEzZjcxNzY1ODI0YzIyZjEzYmVmOGI1Y2JjZWJiODg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWMxYmE0MTc1NDljMzRhMDYyNTBiMzUxMjkwZWFiZTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTY1ZGIwYzNkNTk4NWJkYTQwMWM3MWE0MThjNjRiOTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTc4ZDFiYTU0YWNkOTY1ZDk2Y2VjNTVhMjQ5ZGE4YzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTNiYTJkNWNmNDNkYzQxZjIyNDI4NjgyNzA1ODc4ZTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjM5Mjc2MmFiM2MxYTMwY2U1NGNmMjE0ZjU4MDI0ZmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTAzNGUyMTlhMTBkMjRkMDMxMjBkNzcyYzY0MGE4ODA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDBlMTUyYTdjZjAzMzdjZjQyNTgzMjkzYWU3MTlhOWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWY2Mzc5NmI2MWFiMzU0Njk3NzEzNmVmMzZhYTE3ZGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjIxYTM5ZDEwMzFhNjJhYmFhYjc1MTlkZGJiODkzM2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWExOTdkMDkyNTZkODkxZWEwYmMxNjg0YjYxNTE2Yjg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzE2NzIxYTI0Zjg1MTRlZTgxZWVlOGVjMzU5YTk0YjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODllNTM4ODc2MTdhYzExNzRiZjBiMDc2Zjc3ZjA3NGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTUwNjc3YzM5YjdmMzVkMzE3NGY5NTQ3YmY3NDZlOTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzdkMjQyNzBmNmYzZGM4MDUzZmI4YWMxZmExYjVmYTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWIyNDhiNzAxYjY3MGQ1MDk3Zjk1ZWMzMTdiZTdiOTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDNiOGYyZWNjOGU0ODYyODE0NWM3ODk0NmU3MDgyNTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODlmNDEzMGRkOGM5ZGIzYTRmOTc2MDE0NjI4MzNiNDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjgzZTcyZjVkMDU4YjgwZmNkODI5M2JjYzFjOGI3Y2M=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjEzZDNmMmYzZDZkNzJmYzMxZjM0ZmFhN2M4MzE2NDA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjlkOWJjNDQ3YzBkMjkxOGFmN2IwZWE3OWRjYzVkZjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGExZWNkZTEyMjEwNTQxMmU5YjE1ZWEyYTY4M2E2ZmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTE5ZjJkODU0OTZhZWVjNzMyYjUyNWM4M2ZjODMzNWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTNlYmFiZjg3Mjk2OTQ3ZGFhNzEyMmI1Y2JmOTNiOTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGFhOWQ0ZjNmNmFkYzU1YzI0ZDZjYWJjYzY1NzM0MjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDM3NGE1NDAyY2I5Njg5MzQ5OGI2N2UxZWM0YWYyNTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGI0YTI3MGFiNjA5N2YxMzQzMDMzMGQ2NjFlMTlhMmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDA1ZTVkZjI5OTQ4NDA2NzAwODNmZTJhNzMxMzU3MmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDgyNGFhM2E2MWQ2YWE4NWY4NDlmMzBhYThmZWQ3YzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmZhMzM0MDA5YTRjYzcwODI2NDcyMmFhOGNmZmNjZjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGI5OTZhMjc3MjY4YTZiZWEwZjAwMzM5Y2ZmOThmYmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODBmMTY4MDExMjJiYjZlNzFiYWU0MGY3ZmU3Y2FhZDA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjE4Y2YwODliYmFmN2VjNGEzMGEzNTk1ODI2NzZmYzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGFiZmFiYzA4MjI0ZmQ4ODliNWUyMjE5ZjJjMjZkMTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDUwZjFjNDE4ZDMyZDNiMWQwZmM5MTdkMTgxYWM1ZmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzY0Y2UzZDhhNzEyMzA5NDUwNWE3YmQzODExZWU5YWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODZlODY4N2M3MzNjNTUzMjEyYzAxM2QxOTAwNzA5Y2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTBlNWY0NjZhODIxOWE5ODQ3YThhNzA3NDYxMGQ0MmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjM1NGMxOTllOTBkNzVmN2UyMGU4NjExMjVlZjBmMzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDhmMzUzNTNhMjQzM2ZlZTYyMjY3MTk3MTZhYTlmYjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTYzOTYwOWUxYTc5MWIyNGU1ODY0MjQzMTdhZGQyMjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODhjZGE3ZmQwMjgxNjAyNzY1MDA3ZTU1ZmJkNWVhYTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Nzk2YWUwNTJmMWNmNGMyZjJhZTcyM2RjMDE1NTI1ZGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODJkNmFkN2M1NTQ5YzU3YzgxZjMzYmJiMTMwZmMzYzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2ZlZjUzOTFmMDVhZDRiMjI5MmFhNGQxNzBhYjc2MjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDVkNTJiNzk2MjkyZmNhMTkyOGQ2ZmNhOWUxNGI5ZGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDhjYTlhYzk4MTkwMDViODhhYTEwMjcxMDMwY2M2MzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MThlNWFhZjgyMDNkN2NkYjY2YTVjM2ExOWVjM2YwMDY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjdhMmYwNjk4MjQzNWMxOTNmMTU1NWQzOTk2NGUzZWU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjkyMTcxYjZkNmEyNjNhZGJjYTQ3OWVhYjJmOWY5N2I=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTAyOGVjNWI5NGRmYmJjZTA4OTEwOTEzMzQ2MjM3YmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWFhNjNiYzU4NzQ3NDE5MmZkODEwNTVlM2M0NGY5N2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTIwNjg4OThkZGUzZTE0YzA5NThiYzIyMzlhYTFkMDA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2UzYmM4MTcwN2U3NDA4YjUyNjk5Yzc1MWQ0ZTZkMzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGEyOWYzOGEyMDkwYmQxZDllOWQ3MmQwZDcyMzg4ZjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjZhMDYzN2QyNDRhMzlhZjBiZjIzNmUzYTliYTViMDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmFlNzI0MTJhYzQwZWFlODZlMDY1NGJjNWQ2ZjAwYmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDlmYjgzZDJhODU1OGQ5NTk4NGU4ZjQ2N2ViOGNjNTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzJiNzZlMTFlYTJmZDUzMmM4MWNkNDU4MjA2NTM1MTg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjBlNDhiNzYzYThjZjFjNTcyNGFkZjcwNGViMjYwMjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTgzNjU4NWE0ZmU3NDI5YzMzM2E2YzI3NWQ5ZGMyYTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmJiOGFhZjZmYjNmY2ZjM2VkNjQ1OTQxMDIwMzdkNTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDE5Y2U3YmZjM2RiNWI0MGRkOWI5NzFkNGZlMDU5Mjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWY5MjBjM2I1MDM5ZjBkYThhZmE1NmQxYmY2OWIzM2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDdjNTA2YjY3MjNiODIzMDI0ODJmZGU4ZjUxMDVhMGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODY4NDkxMzMyYWQ3M2M0M2FhMjE3ZWRjNTcxYTY1NTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWQzYzY1N2FiMDI5MzRhOGNiMThkZDhkOWUwZjY5ODk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWUwMzE3YWM0MzQwYjVlZTJiMzgwYjE3ODA1YzdmNmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWRhY2M4NzAxZjExYWQ5OTZjNzM2ZjVmZWIxOTE1NGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDQzZTRlODk4ZDNmNjQyY2YwNGVhOGY0ZTIyZTM0Y2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjE3NDJlOWY5ODEyNmU5ZDI4NDc0NzQyMzM1NjZmYmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjcwZGNhZmE2MmMxNDkzMDhmYmQ0Mjg3MGQ2ZTk1OGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWExYmEzODQ2ZGE3YzFjYjVhMDNlNWUzZmUwM2NlMTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmY1ZjBiOTY5YmY5YTJjYjFmYjRjY2E2MTRkNTg5YTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjA5NTkyNTVkMDk3NjliZTFlYjcwYmY5ZDVlMTk0Y2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDEyOTM3YjdmNGQ0Y2I5YzI0ZTk3MjRkYTA4YWJkYzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjkwYTdmMDcxNzAxZjY0NmYxMTBhZTY2NjU5Y2NhNmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzJkMDJlZWQzZTRjZTMwYTgzNzJjYjVmMzM4N2M0ZDg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzM3YTg0ODEwMDcxNTMwMmM3NjBjYjI5MjMwZjU5NWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmU4Njg3YmYxYzYzNmEyYjc0MDFkZjRjN2I5MzIyZTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWQ0YzE1YjFlYzhjZDNkY2Q3YjNlNzM4ZWU4NWM4OGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGFmYzVlMGM3OGE3MzkyY2Q2YWM3MzRjNjA1YjMwNzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGM4YmQ1MjVmMDBkZDYzNzU5N2U4YWMxYTJlMDNhYTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjcyMWY5N2RhMDlmNmY1MDhkNDRiN2YyZjg4YTFmOWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmYyMTQ3MzFlMDgxM2UzYWE3MWM0ZThkMjg3MTgzZTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjA5M2Y0MjIzMDUzYjQwYjFmOGIwNWE3NzVjOTkxZjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmU4ZDE3NjMyNGVjNzdlMGE5NDJhMmI1YmI0OTE3ZDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjI1YWRkN2ZhMjRlN2E5ZTgwOTQ0ODc3OWFmY2RlM2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmNhYTM0M2FhYjBlNGRhYTQyNzBjNTZiMWMzODdjZWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTE0M2NkYjQ4ZWI0ZjIwOTE3MTkzYmQ1MmNhMzdlNGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTQxZDA0NGNiYzA2NDI0YmMzNWFlNTg5MTQ2ZDVjMjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjNiY2Y4Mzg3YzNhOWUzOGI4OTU2YjM0ZWU2ODUzZjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWE1OTk3MTdkNTM4N2MyZjlhZmE2NTVmYmUyYTU2ZWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MThjMTYzZGQ0YTljY2VlNDhmYTMxMTkzMzEzODRkZDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTRjZjRmYWRlOGJlZTdlMGFiODliYTAwNDU1NjkyNmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODY0YmQ0NDhkY2I3MWJhM2ZjMGZkMjMzMzQ3YjcwZDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTU3ZDhjOTgwNjhmOWZlODgzNmE4ZDJiNzZiMDU2NzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTgxMDFiZjBhMWVhMjZlNmZmNjhiZmNhZmNkMGJlOTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmNiMWVhOTM4ZjU0MDk0OTAzOGRmMmQ3MjZiYjEyMGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDM0YzNlZWM1ODI4OGM4ZGZjOTc4MTdmYTdkNjIyMTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2YzMGY5ZjMwMjJhMWIwYmE1OTZmODM4YThlZTQ5ZTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWIwOGFiN2FhYTQ4YTU4MmEwNDE5MWQyMGI5NGIxZDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Yzg5YThjZGYwYzMyNDUwMWU4MTYzNzU4YjJjZTk3MmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmQ4NTQ2MTJmZjVmMTNlY2U4NjYwMDFlNmJkMzU3YTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODM0MDg5MDg0ZWY3ZGMwMzQ2YTgxNDkzNWYyZGJhYTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjEyYjZkYzJjMjg2M2NiNjVlMmIwMjdmOWE2MGUzODU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzI1MmVlMTJiZGNmYWFkNDkyNWM4OGUzMzQzNDQ0MTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2YwYzllM2E3MmNmMGI4MjUxNzY2N2FlZTY0MWViNTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzZmMGI4N2E2ZGVkOTZlNTAzNjQ4ZjZlZGU2MDFlY2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjZmYTE4ZDExZDBjN2MzNWI5MGFhNDE4ZjZhZWU2OTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWNlNWMwNTVmYWVjNjc4ZjZkMGJjZGY0Nzc3YTI5Y2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTMyZGJmOTFlYTA2YjA3NDQxMDgzNDA3NTZlZmY3YTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGVkZjcyYTA1ZjQyNTE4ZWFjYjdmYjA4ZmZjYTI3YTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWUzZDUyNmY2NzI0YzJiN2U2YTY1ODNlMDBkNWQwNjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGY0ZGUwMDMwMWE1Yjg5NTM2MDJmYTE2NTQ4NGUwMzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWI4YWE2MTEyMDZkZDM4N2EyNDRlZWNlZWMwZGMxNGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTU4NTI4ZjczNDU1Mjk4MGU1MDg0NzU3MDIzOTBiMDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDc4OTE5NGI4MDAzYWRhZDM5N2JhOWFmN2IxNWM5N2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWFkYTY4MmNiNzQ4MmIyYjkxMmJjYzc1NTNhYjNmZGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzA1ZTc5MTRkNGM1NGU4NDdiYjZjMzgxZmE3MWU3ZDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTI4MGEwZjkyZDhjOTBlZDgxZmJiMzIyYThkNTRmMzk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTE1NTllYjRiNTZmYjg4YTA0MDI3M2Q2ZDRhOWFjNDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGZlMWQ4NTNkZGMxOTNhODE2Y2I0N2I4NGM5ZDA0NWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzEwNmM5ZDM4NDkxYzBmMjFiNjZkOWZjYmQ4NTYyMDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODc3N2E5MjBiYzE1MDVjM2JmNTYxYjYwYTMyNTNiZGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDAxNTRiNGY5YjRmNWNhNWE4ODhmMGU1NTA5YTM2NDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjA3ZjRmOGI2Y2RiYjMzZDI0ZDJmMTVjYWQwOTU0NzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODgyNGUyZTQ0OGQ1MmJkNmI1ZjdlNTBkNWQyNWRmNDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjhhZjU1Yjk5ZGYxNjE4MzQ5MmY0MjZhYWU3ZjU1NjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjY3NWM5NDRhYjI2MGY2YWE0MDE4MmFhYTRlOTFlY2I=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjUwNmE1YjEyMjgwN2E0NGMzZGRlNTgwYjE5OWEwOGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGJiYTViOWM3MWE0MzM2MWI4MTk5MjIwOTAzMGYxNjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGMyZWVhMzE0ZjE1NGJhNTlhNDNhZGE4ZmFhNDdjNWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTZkNjg4YmUxMmVkZDdlY2FjMjU0MDQ2ZGE0YWM2ZWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmE3Zjc1ZmE3ZWIwN2NiOWE0OTNiMjEyMGQ3N2ExNTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Zjg4M2M5YTcyNWNhN2FhMTk2ZmNkMDZhM2E1M2UzNWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGVkYzQ3YjQ3OGNiYTAzYzU4YWQ2MzQyNjU4YWM3Zjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjkzYmFhOGJjODlkZjA1ZTY5Mzk1MDlmZDhmYTJkZmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzFiMThjM2IxZDJjZTE5MmNlODY0NDg4OTFkNzM5MWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjhjMmY0ZjdkZGQ1NjRkMGYwMTE0MDFlN2M3ZTk2Yjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjZmZTkwZGY0MjUxOWY3YjZlNjM2MzBkYzdjNGQ1ZTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTVkNDUyM2EzNWE2OWVlZGU2NDFjNThlNzFiMTFjM2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjIzNGRjZDFjNGI1YjA0Y2VlY2E5YWJiMWUwM2Q1YmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODc0ZjQ0YmYxNDdiMGQ0MjY4OTExY2E0Y2U5YmMyYzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODFhMDIyNzg5OWRkM2U1MjdjMGI1ZmU5NTBjYWQyNGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzE5ZTA4Y2QxYjRkNzdjZDM5MDczZTE1OWYwM2RiYTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDlhMTAzZDY2MWJkMGIxM2JhZTAyMzE5NmMyNGVkOTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTI2MzRjZGYxZWMzYmQzOGY0NjUyMDQ4ZjNkMDExMDY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWQ2OWY1NTY2ZThhZjdmMzljYTUzMDUzYWIxZDNkNDY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTgzNzhhZjVlOWI0OWJiZDQyYmJjZmJhZmUxZGI3MjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWE0ODM3ODQ0YjNjODQxZmE2ZGI5ZWNhOGFlNDkwNDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjhhM2NhMDRkNjEzYmRhNWYwZmNmNTZiMzllM2IwYmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2RiNTE3YWQ1OTFjM2Y3OGZhNDU5ZmQwOGEwYmIxMTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjRjYjNlYjUyN2I1NjdhZTlkZDgyMjgwMDdlNmIwYWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTk5YjUzODRlMzEwNTMyZTRjZTZiZWQwZmVmYWRkYWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjMwNTM3ZmNjZTIyMjk2OWU0YjNjOTE5MjYzMWJjY2I=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTgwZGIyMTFiYjIwMGM3MGFmY2U3MzYyN2IxODIwOTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2JiYjBlOWJiYWJlNzU1MmMxYjU3NmE3OGVkNjgwNGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTMzZDI4NzRlMTRjOGM2M2Q0MmExNTczM2MxZDkwMTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGNhYzRlN2Y5Y2UxMGJmZjEyYmU4MTExOWRlM2IzOTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDQ3ZWJiN2NkYThjYmE4YTNmOTc1ZjljMWI2NGRiNjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTFmNzdhOTZhMjVkOTkyM2M5NDFjOWU0MzA0MGUyYTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWQ2YjFmMTU1ZmJkNDk3OGM5ZThhY2RmZDU1MjljOGY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTI4YTkzMGRjZTdmOTMwNzBkMTEwZGJjYzNmZDEyYjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWE0NTIwYjZiYmI0MmIzZTA4MTM3ZTNkNTc4YTA4MmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTJjYjdlNGJmMjYwNjZmYWM4YTM3NjRlNzFmNmQxMmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTI0MzNiMTA0OTViNWQ0ZTAzMDg0OWY0NjhmMGZlNjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGM5YjBhODA1ZGFkZWYwNGQ1NTc4ZDFhYmRmY2M3ZTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDYyMGZlMjE4Y2U1ZjlhNjQyZDNhZGU3ODNhODI2NmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzUwYTAyNzRhZTNlNjY4ZGNiMGY0M2VjZWE1ZmFiZGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2E4M2M1NDc2OWM5ZjEzZjMxNzMyODg4YWY5ZjUxNTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDdkNTJlZTcxNjU5YmYyMDM1ZDVkODhjNTM5NzgxODY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjUxZGU1OTBiYmNjMDY0MjhhZjExOGM5MzIzNmVlNTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTUxMTMzYWNkZTRiODE3OGNjNjM0YjU4YTMwMmI0NDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Njk1N2U2NDg0YWQwMDA3MDdkNzZhYmFjMDYyNzhkZmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTNmNWZkOWJmY2MzYzg3OTkxZjNlNWU1OWJjMjc5NWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDg1OWIzNzRkZTc5ZGFmOGY0ZTg0ZTY0MWQ2ZjBiYmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmQ1ZDljOWYzMmNkYWVmNGNjNmUxNGFjNmIwZDE3OWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWFjMmM1MmMyMWM4MTJhZmRmNGZlNDJlNGY5MjIxNjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTM0OWU5ODhkNTUwMzkyZGJlNzA5ZTRiODJjOTliYzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDlhZTAwZDY4ZDU4MDgzYTNlMWIxN2UzYjU1NGE0YjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjNkNDllMWI4ZTRkOWZlMzU1Y2FhNGEzYTRmN2MxNzg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGFkZDM1MmE0YzBkYTNjZTZiZDk2MGNkODNjOGY3NmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Yzc5YjE5ZTZjMTNlMDYzNzY0MTVmOWZkMzVkY2U0NTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDg1M2U4MTgyYTVlMjM5YzU0MjcxYzkxOWYzNTQ0MDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGMyMzk0YmRiODQ1NTY3MGUxYTA0OTJkZWVlYzQ1MDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzJjNGVkN2QxMWI5OGJlOGM0NzdhNWU0ZWY0OGJhMmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODZmN2VkMmZjZmQ4ZjA4ZjE2YWI5MmU2YWRmNTJjZTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTg5OTRlODBmZGZkMTBkNDEzYWExNzA4NzgyYjZmMzI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDRkYjdlYWM0NDE3MDA1YmRlOTYzMTFiMWMzN2EwZjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzVhODQxYWUyYzA1ZWIxZTY4YmFkMDVmMWY2OWQ2MzI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzFiYzI4OWE4ODU1MzI0ZjM5MDAzYmNlYjZiNTBhMWU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmFlODQ2MTY4YmI2M2E5NzI1MzhkZTcxMTMwYTU2MjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmI0ZDE2YWI4ZjRhNzk1ZmRmZjA3OWM5ZDA5YzRlMTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmM1ZDk4M2FhODk2YzJjYTM1Mjk3YTA1NmUzZjgwYTY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGMyYjYzNTlkZTBlNWM5ZDEyYjMxZTlhYzZlYjFjZDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjdiMDExMjNiNWE0NzAxMzZjMThiMWZkNWJhN2I5NmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzI0M2EwYzlhYjQyZjFjMTQxMWI1YjhiZmYzNjIyYTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDc4NDYyMGNiNTg4MzQwYjgxZDU1Yjk4MDQ2NGVmZjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWFjOGU5MTM3YWZmNTg0Y2NkMzliODRhOTJjMzAwMDg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTgwNTA3OTEzMjUzOWIzYjA1YzA4ODE2MmViODBjY2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDI0MmMzNTJlZmNhZjA3Njg3MzEzYzUxMGFmN2Q2ZDA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWMzYThlYTc5Y2I5YWUyNWE3OGU3MDJmODdkZWQ5YzE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTFkODE2MTgzNWYwMmIwOWVjYjQ3ODM3OWVjNTAyMDI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTJmMDg0ODk5MTdjNzU4MWI5NmYwNTE5YzdiYzg5Nzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDQzMzIzMTJlMmRmM2RhODhkMDdmOWZkMzNlYzY3MGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTJkMjRlNTE2MDBjZTllODZlMjlmZjA1OTdkZmQ3OTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTE3NzNlYzY3ODRhMjM5YjhhYWZiYzc2MDkzZjQ5MWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGYxZDk0NzZlOWU5ZDFmZWNiMTA0NjAwNGViNzBiNGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTY3MDRkZDM4OWQzM2Y5ODEzZTlmZmYwYzY0OGJkMDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjM5MGIyZTM0YTdjMGRkNDAxN2MwM2E1ZGQ1ZTdlMGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2NlMjg4NTgyNTAxNmJiYTU0Njc4ZDExOTMzNmRiNDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2M4ZDZkNDE1ZDU0ODNhMGU5YmFlNzBlMTFjNWE3MDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmQ1MTAzMmFmNzc4ODFjMzhkMzVmYmRhMmRmYTgwYzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDBjYTk4ZmViNzg0ZWMzMmQxMjA0YjdhZWJiZDJiOGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWY3YzU1NzQxNjA2ZjA3Zjg1YzA1YzFiODZjNDRlOGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Zjk0ZjU4NDAwYzQ2NTYwNjUzOGNhZmNiODUyNjQ5ZjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmFlOThlZjdlOTcxN2RhNTU1ZjQ3NDU2YzllYTkyNjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjJmNDA1ODIyODZiYzhmM2E2NTdhMGU5OWFlYzZmMzE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2Y0NTM2OGJiZDBmZGNmOGFlZjkzMjk2YjY3NjM3ZTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjY0ZjQ3MjA3ZDYzMjNhZDg3ZDc3YWI4OGUwZmQyYjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTAxMWExNDdkOGFhMzAyZjM0YzY2MGFmM2RhOTIxNWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDU2YWFhMmYwMWE2Yzk0ZWE0MDY5OWE4NzM5YjZlNjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzcwM2M1N2QyY2EyMzg4NDE4MWJiNTI4YzU4ZWI4ZGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTc2NDE3YzE3NjEwMmJhMzZkNGE2ZjIyZWU3ZGVhMGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODVkYzQ0NWU1ZDVmNzczMmM2NTgyMjYyMWViOTI3MDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Nzc0MDJjNDU2NGZjOGNlMjhmOTVkMzZiNjZhNzVlZDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2ZmZDg1ODI0YmQ2YzBjOGE1OWJkYjRlNmUxZDk2NTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2EzMzNiMDdjNmEyNWVhMWE5NTFjNDhjOTVjMmI4ZTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YThiMDQ3ZjUwNGNiMWIxM2E5OTU1ZTFjN2IyYzJmMjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWI2MmMxZWRhZjM3ZDJmODc3OTc5OWNkMTdjOGZmNTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmY4NGE3YzI4OTNmZjAyZmRkOTFkY2ZhOGI5YzJhZGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDBmN2M2M2NjMmU1OWJjYTY4Zjk5NmViNGRhOGUyZjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmFiN2VmNTZjM2M3MjIwOTZmZDg0Y2Y0MDA5M2JmM2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmNlMWJmOGYxNDQwODM3Mzg3ZmQ5MjgzMTg2YTcyM2M=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGQwNmU2ZjgyM2VmYzJjNThkZjBlYjRhNzYzOTJmZjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjA4N2Y4ZGI2ZThjNDRiNDAxMDI4ZDQ2MTAwNzU5NzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTUwMjUwM2QxYTQ1Njc4OTE1MWEwM2MxOWI4MjkxYjg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzFkNDhmZGJmMjg0YzI5YTkwYzYzOTU1NWRmNThlMzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjcyNTA1MGFiY2YyNGY1ZTM0YTE1M2JkZTIzM2Y3NjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmYyNGEzYjhhMjhlZTQwZGQyOTdkOTU2ODBmZGY2MWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzYwNDA3NzMzNDQ5YTk2YTdmYzNlN2NiZjFiY2E1ZjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTdkZjIxYmVhNjRlYTY0MTQ4NTdmOWRlZTdhOGY2YzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmE4YjIxYzMzMGM4MjdmZWZkNDVhYmE3MjRiZWRiOTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjYzNzZjYzIzY2UxMWNhZjhiOGY4NGUwZjkxNmM0MDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjE5NDg5NzA4ZDkwMDBkYWNmYWVmNjdmM2E4Mjk2ODc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzU5NDY0MzE0YjA0YTdkYjc0MmU2ZGZlNDYxMzVmNzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjkzZDhkNmUxYjNkMWEwOWE1ODhjM2RkZjA5ODY1ZjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjI2NDE4OTdkMTM1NDNmNzk2OTRmZWIwN2IwYjJkMGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2UwOWIxYWVhNjE2MDQyNjQ3OTcyMzQwYmM5MmYwY2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWNkODdmZTA5Y2Q1ZGFlNjY5ZDE1ZGYxYWZkZWIyNmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2RlOTNmYmRmZjQ4MzMxMjIyZmVlYTRlZmE5NDJlMGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjQwMjEwYmRhZTMwMjJhYjgyNmUxMTdjNDdmMWI0Y2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGViZjY2NjdmYjVmYTEyNjllZTZlMTJmMWVlNTAwYjg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmRhMzM4NjMwMDY5MjhiYjc4NWJiMDVjZTA2ZjhmNDI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTQxNDBmOTMxOTdjNTU3OTQxMGZkNzFjMTk5OTRkNDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2JhMGIwNTA4M2M2NjIzYjA1OTRiZTc4NTcwYTkzMzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmMwYzA5Yzk1NDg3OTRiYmI0MjA0OGVmY2QwY2ZiNjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTg3Njk1OGEyZmIzMDQ5YzczOTViNThjNDAxMTVmOGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTIzOTg1YjRjMzgyNDNmYWFkNGFjYmZiZDZjYzIzZjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjBhOGQ5YjFlMzJmNDRmNDkzNGY4Y2Q4Y2RlNTYxZDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODBjNTdkOGU1ZmZjZWM1MThlOGUzMmQ2M2VjZDI1YzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDUyZGE1YzI5ZWNjYmEyNDNjZjc0Yjc0Y2Q1NGRhM2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmFhYWExOGQyMGYzNmJlZjc1ODQ4YjQ4NGIzODEyODA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzE5NGFlZmYzOTJhYmQzMTM5YWIxYjY0ODA2NDk2N2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTFhOTNmZTIzNWM2ZmNlYzk3ZTJkMDVhYjExOWI2Yjg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDEwYmI1ZDA0ZmMxMzU2NjQ3NDdmNmQwNjVhMmY3MWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDgyY2NmMzFiNzM1Mzc2YTg1MjZiMjA4NmE4ZDU5NjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTNiMDkwNTJhODM5MTEyMmM1YjYzMDQ3MjE4ODJhMjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjFhMjkwZTFiMmY1NjVmNGU4NDYzZGJlNGI4NWI2ZTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTZhMjhmMTRlODllYmMxNDUwZThmMGVmZWZiZWMwODI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZThkNzQ1NTQxNzA5MDE5ZGEzZjMzNzFlYzA1NjJlMmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmEzNDE2YTExODU3NTc0YzdmM2E3N2NmMWIxYzg1YzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODkyNDNiNTNmNDUxZDkzYTA3Y2QwMTQ4YmQ3MTVkZDg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTljZmNiNTFhODUxYmI5YWE3OTcyMWFiNzkzMGNhYWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWZmMzQxOGNkNWE0N2RkZThkY2U3M2Y4YzM1ZDUwZDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGZjMDUxNTMxMThlMTk3NTMzNTczNTZmMDA4NmVmZjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODEyNjFjYjZkNTUxZjhiMGNmOGM2ZmE5MzM5MTk5ZmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTQ5ODBlMzUxOGIxYjgwNDU1ODIwMDg2N2E3MTIxMTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmYzNmQ2MmRhN2ZjNWYwMDJmNjZjY2YwZDc3YzAxZWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTE5ZTZmODRhYTE0ZTkwZWRkZTY5MTY2Y2I3MzE4NmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmIzOWQ0ZTA3MTllZjA5NmIzZGUwNjcwNTIyYTFjNDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjY5OTc1OGZmNGY3MGU0N2JkNDAyOGI3MzQ5MGJhODg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDM5NGJhMGZjZDFmMzM4NzU2ZDAwNTE4YmQ4NjY3M2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTA4N2JhYjVjMjkyMWFjNTQ3Y2VjYzVkYWY1OTBhMjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTZiMmJjYjJjZTRiZjljNzk3NDRjMjlkMzA2ODRjMDI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGVmYjE2MjlkOTdkODFkZWMxNDEzMGU4YWU5ZWVhN2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWYzNDJmM2JlODc2OWI0NDJmMjM2M2M5NDVhMzI3NmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDNjZjlmZmRmNDY4YWMwMTRkMTNkMmIwYmJhZDI4NTg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjYxZTBjMTBjZWExMTQ4ZjI2MDhlYjQ4ZDE2Y2M5NjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTE4ZDIzNTA4NzEwNzNlZGExMmI5YjcwMGMyNjAxZGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGEyMzU3Njk0ZjhjZTkzYWEzMjkwNjBiMjc3MzBmYzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGNjNTljMGM4MGEwNzQzOGM5MWJlY2M5MDQ0OWU0OTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODQ1MmNiYWExMWRjMGJhNWZkZGQ2NDk3OTMzYmNhMDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjZkNzBlMjUxMmExYzVjNDRiZTcwZThhYjZlNWRlNjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGQ4MWViNTQwODIyMWQ0YTNhMDUwOGZmNzU3YmFiNzg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjlkMTA2NjU0NzQ1ZjFjYWJjYTA0NzgwZDY1NWVjYzI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWI2MGVlNWRlYzE3ZjJlNTBhYjg3MjZkNzYxYTI3NDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzM1NzIzYWRmNTM0YWVhMmJkYTA3ZmUzNmMwYTViMzg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Yjc3YjdhNTkzODEyZGQxYWIxMjI4N2I3MmFhODUzM2I=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTFlNGUxZmY4NjFkNWEzOTkzOWNmMWVjYjhmMGEyYjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmJkMzcxNGUxZTlmNDE5YjBjZWRkNTliOGI3ODU3OWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGM3MjBmYTYxM2RjZWU0N2IwODc5ZTMxZWEwYTE3ZTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDgwMWViMzk3MmRhZGQ5ZTNjYzE5MGQ3ZWZkYzM3YmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Njk4NDAwMGQzM2IyZmMyOTE3ZDk2ODZjODRhMGU1YzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTZjMWY3ZGM0YmIxNjBmMGE3YWJkZWUwN2RiZTgzOTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2NkOTc1MDNmMzZmY2EwMzBlZGMwNDVhMzRiNzU1ZDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTU4YzExOWU0YmM0NzdhNmJlYjBlYTE3ZTNmZTIwYzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjdiMzllYzFiMDQ1MjU0M2U0ODIzZTcwZjhlYjlkMmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDdmMzYzNWM2ZWJjMGE0ZGM3MThiNzBjNzE1N2VjYjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTdiZmYzNjM2MzZmZjQ4ZTgwMzcxM2RjMDlhZWQ1OTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTQ0M2RiYjJhMWY5Njg5MTkxYTAwZWZlN2QwNGI2ZGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjlmNDZmZjhlNDEwYjEzMDMwNDc3ZjhiYWYwNmVjYWU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTJjNmFiM2Q5NjlkMWIzOTE2NzAxMDdiYjk1NjliYzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWQzM2JhNjg5ZDU5NWYyZTk0YTM5YzUwMmJmYTQ3YmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTUzNGQ4ZWQ3MjNiZTEwY2I3N2NiNzZhYTU0ZDMxZDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjE3MjdlMGY2Yzc1MGNkMzAyMjEwYWIxZGU4ODNmN2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDc2ZGQ3YzM1MGRkZDcxZDRjM2JlNWE2ODE3YzEwZTg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDhkMWY0ZTE0NWJhM2M2YzlhYmMzODE2MmZhNjY3ZmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjgwZGI2ZGVhZWM0YzM2YmE2Njc1NzU2ODczZWY2NGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzM4N2NlZmQ0ZTgxY2VjNDdkZDBlNDQ5NmY0MWVkYmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzMxYzQyMTdkMWE5ZmY4YzljYzNmMWE4YzcyMDYxNWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2VmYTk0NDhlY2NlZDY0OTIyZDA0OWMxYjQwOTQyMTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTNmOGVlODQ3YzVjNzc1Zjc1YWM0NTczYWQ2MWZkMGY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmZmZDE1OTk0MTFlYTc3YmNiZTRkOTU2MjAxMzdlNjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmRjOTIwNDEyODkxZDQ2Y2E1NDNkZTA5YjU3ZmFlYmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTU5MTUwMjc4ZWFkZGE3YjNkYWUxODBlMWQ3OTlmZDA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGYzZGQ4NDY5MjZlYmRjZjlkZjg3YzAwYTgxY2NiM2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGZlNjRmODQzMjRmM2ZjODE2ZjVhNjZmZjdmNzA5MGY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDRjYzEwNjhhMGM2NmM4YjE5MTQ1YzRiNjFiYWNmMzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWNjNWM5NmFmMDU0ODA5ZTFjM2NlMjQyNDJiNDYyYzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGMyMWI1ZDJhNTdlMjNhZTI5YmU2MDc3OGI3ZjY1MTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDU5YjkyZDNlNjg3NTI1MTM5OTJkZThlOTI3MjYyMWU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2M1OTlkOGEyYWVhZDAwZjFhNDQxZGM0ZTFhNzczMmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDRiYzEwMjcxNGE4MGViYzFjNzg3MjBkYmQ1YTA4NjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzhlNWFmMDc5ZWQxY2JiN2Q5M2U0NDc0NGE1MzdiNTE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzQ0MzFhNjY0ODUwNmZmNGFiODAzN2M4YjdjOGM0ZmM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGRjNzA5YjY2YTM3MmRjNjJkNDNkNjJiNGVkNDA3NTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWVkZDI3YjI2Y2JhYThhYzI2MjY4NjFlYTM1ZGJlN2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODY2YTg1YWZlNzU1NzM5NDk0OGZlODc4YWU3NGJhYjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWRhNDVkMjUxNmI1OTZkZTc3OTlhZWUxNzI5YTIwMDg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2FkN2ExODAzM2Y0YzlkYzdkYmZlNTU5NjhhYjQzYzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGFkZjhmN2VhNWNhMDA5MWY1YzNjZDdkOGZmYzlmY2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTkwODMwMTJmOTlmY2NhOTYyOWJiM2I3NWI4ZTI0YTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmVjNDc4NjcwM2ZjMGJjNTRjNTJlYzY1MDIxMjQ3M2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmE3Y2YzMjkyNmViYzY4ODI1MzE3NmM5Yzk4ZjQzMmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGVhZmMwMWQxNjBlZmRmMWIzMzFiM2NiOWMxNjc2NmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmMxZmE5ODdlYzQzODFiZmFhY2YzYzZhZDU3YzA4YzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjUxOWM4YjNhNmE5MWJiODYzY2FlMjVhZmI2YTMyODA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGRmYzcwZWQwYzZkN2I2NDk4ZjExMjQ1YWE4ZmMwM2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGZhN2NjZDY5ZmMwOGM2NWJmOGJlOTFjYjRhYTQ4MjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODZiM2U2ZjAxMGM4ZjY0Zjk3MTU4Y2RhNGFlMzNmM2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjcwNTMwYWQwNmY0NWEzNzM2NDg3MzlhMjFiMWEwYjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWFhYTUyYWUwYWFlY2U5MDMyYTk2YWIyODg1NGI1ZDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTZiZDY3NjNlMGRmODUxMzBmNGNjZDQ5NGRiZTI4MTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDA5YmI3M2Q3NTY3ZDdmYjFjOWJkYTYyN2RjMWU5ODY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTUzOGM1MzEzMjc1ZmU0ZTMxNTdkOTFmNGFiMjExYWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGNkMzAyYmYzYWVkY2QxMWEyZTI4NTFmYjBkMmE4Y2E=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/N2Q5NjNkZGNjODg5OTM5MjFmYTAxMzZiNTY2ZWM5MDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjA2YmU3MjJjYmJkYmM2MDkyODc4ZmUzM2E5M2E3ZWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTQ3NmQ4NGE4Yzc3NDFhNjQ1YjJjZTA4MDY3ZWFlZjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWI0OGJmMzFhNzAxMWI4MmQwOTUwYmUzOGE5MzVhZTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjlhMzY0YWJiZjkxZDBjMTViNDZlM2Q3ODIzNjA5MzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmNkZDhhOTNlODk3YThiNTJjZDUxYTA2NzEwZjllZWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzI2OTdhOWYyYjdlNzc2OWZkYjE1ZjZkMWJkYjkwMjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjhiYzhkNDg3N2RkNGUxZmUyNDkzZGNkZjA3ODk0ZmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWVlMGUzYTEyNWQ1ODc0NzFmMjQwZDg2YjgxNjAwOTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmQ5YjEzZGRjNjEyN2Q2OGVmOTJjNTA4YTU4OGExYTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTQ2OTgyOWMwOTM4ODljMDlmOGRkODM5YTAyNTRjMmE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTA4NTUzY2RhODkyZDhmMGRlNmNhODY0MDllNzBlOGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmExM2VmOTlkOTA2Njk5YzBmYWViOTg0YzI1ZDE1ODg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODU1YTMxYWZlYjM1Mjc4ZDljMGMzNmIyZjQ1YzUyYTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDM2YWViZWQ3YjA5ZDU4NWYwOWNmNDY0ODlkMzhmZmY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2RjOTY0YmIxNzA2NTFjYjYwYTVkNDkyN2ZhYTQwZWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjNjODk1MmMzMzNkYTk3YWM2NDcwYmU0ZTZlYjMzNTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTg4MWQ1YWMzMWUwYzIzNTdiODJlNWRmMjI2NmQ2MGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTMzYzAyOWYyYjRhZjhlMjgxNWVhOGI4M2QzMzIwMmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Yjk2NDljYjAyMDAzMmYyN2RhZjMxZTVlMzU4YzYyZjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGFkYjUxZDMxOTJkN2ZjMWYxOTEzNDU4OTA1OTY3ZGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2FkMWU1NzBmZjA1MmUzYTdmZjc1ZTJjODhiMDE1ZGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzA1NTE3MDRlM2I3Y2QyYmQ3OWRmYTYxMzFmZjRkOTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmZmOGVkMWM0NmU4NzBjYjFjYjAwMjljOGM1Njg1OTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2FjYTdiNGVlZWRiNmYyZGIwZWEwN2FlMDJlNDQxOTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDU4ZTIwNWNlZjljMTVjNWNlMDI1OTgxODI4NGQwMTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2ViM2ZkYTM0YTRjZDJmNzgyNDk2NDEyOTc4NjhiYjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWFhYTgzYjdiODk0ODdlNmY5ZWVhZDUzYmZhNWFlOTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2Y2Y2UwMDU2MjMwZTZhMjIyYzMyNTcxYmMzZjIzYTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Zjk1N2RmMGI0MzViYWJmMDllMjVjYTk3MjA0MTAwYzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDY0YzMxMDljOGQ3MWVkMTg4MjM0MTEwYzY4NDE2NzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODFlMmVjNjQwOGM5YmJkZmM0YzhkNmRjMWIwYTYwZDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzkxZTI2MjA5YzdmMTQzZGJhNDI4NmM0YWFhYTkzZDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjdkM2JkNzA0YmRlOTQ2ODY0ZDQ3NGU1MGU0N2RmMzQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzNlMGJlY2QwMGZiOGY2MmM1YTFhY2Q0NzJhNTI3MjA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWQ2NWIwNzFjMGQwNDFjYWNiNzMwNGVmZmM0YzBmYTI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjVhNTc1ZjgxYTRlN2UyMjhlZmVjZDUzNTNmMDQ5NmQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWJmNTVjM2JlOTlkNTQxZTgyYmY4ODg4ODQ4YmU2ZDE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTIyMWMzZGE5Zjc3NTQ3ZDA2NmNiMGI3NjcwY2E4MzE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWY5M2I0ZWNkMDdjNDhmNDM3MmEyOTQ3YjJlNjhhNGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZGRlMTUzMTZlOWUzZTU1Y2IyYTQxOGUwNzcyZjdlNWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzVjNDNmZDYyOTk3NGZhNDk1ZDhhNmQzOWIwM2NhYmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjQzYTc0Mjc3ODllNmY3NDE5YjhiMTQ5ZjJkMjkyNGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWE5MTM2OWQ2MjFkY2Q1ODc5Y2I1MjNlMmRhNDYxNWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjBhOTNmNTVjMzAxOGEyYzFlMGRjMWZiYzI0Y2JiZGI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2YwMjcyNWQ0ZGFlMmY3NjYxMjYzNGUyYmM4NThmNzk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzE4YTIzNWZiODBmMjM0ZTYyMWIzYTlkODkzNzc3OWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmJhZjlmNzlmODgyNWM4MTNjNGEzNWUwZGY5YTMwZDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjNiN2M0YTNjMGQzYzk2NzZkNmI5MGYzNzNkZDI3OGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWM1OTQ0MDhlMDgzZGRmNjRiMWVhYzE5OTllNzFjNjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGIwYWI2YWE2OTNkMzY5NWRmZTBiNGI1OGNlMGVkNzY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTc0Y2FmNTg2MDUwYzE4NTk2NmVjNTdlYjUyYmI4MWE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Mjk1MmQyM2UyOTVhZDgyZDI0NTA5Mjc0ODFkOWIzN2Y=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmUxNzAzZGFmYmU1ZjU5YmI3MDViZDExYzEyMGRjMTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTNhZjZiOWIwMDE0MDIwNjIyNWMzZDc1YjI3ZWE2YTA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZDc5ZmUzOGQ2MDEyZmFmNzNkNzYwYTQ1MzQzYmQ3MGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGQzZTA4MmZmMDgxMWNmNDY4ZjQ1MGY1MjJmNmFiMGY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTdlZmJkZTU5YjM4NWNjODc4MjM4Y2M2ZjMwZGVjZTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWM1YzZjMDJmYWQwNjBjMTgwZmY2YWRhMmJiM2U1YzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWFjYTUwMDg5NzI4Zjk2MzhiZTdhMjViZjA0ZDBjZGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDc1ZDFjYTFmM2QzYWM0ZjUwZDViNTY2NGU3ZDAzMzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzE0ZTFlMzk3NWJkMjJlYTJlZGI0MjNiYjdlYzZhNzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmNmZGFjMTY0ZmI1NzcxNGUwNGZmNjFjOTMwNDBkMzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmQyZWNkM2Q2YTk3OTg4OWJhYmRhZWFlOThlYjE1M2Q=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjMzNGFhYzM0MmJkMGFlMWRlMDZkNzUyYWQ4NDM3NTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDBkYjliNmE5ZGMxYThhOTIwYjUxMWUwYmViMjBkNzA=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmQ4MTlkMTAwMmUwZDA2NzI4YjVkY2U5N2E5YWQ2YTg=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzZmZTFjZGRmOGFmYTQyM2I0YjQ4MWRjNmY1MDUxYmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTk1NTIxMGRkZTQ3YWU5YTAxMWE4YjNiZDdlYTg4ZjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWNhOWU0OGM5MzBmODJlNGZhZmU5ZGJiMTFiMmJhOWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2U5NDI4NGNiYjczOTlhZTMyMmNiNzlkZjU2NDE4NDI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NzcxNDNjYzBiNTMyMjEzNDkyOGY4MmNjN2IzOWM1NGQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmIyYzM5NGVmODQ3YjcxN2NkZWExM2NmNDY2ODhhY2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MGM3NGJlYzNhZjU4Y2FhYTM2Y2FjOTQ1MWJmMWRlZjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2Y1YzcxNDJhZGUwMWNkNWFiMTE1M2MxZWZmYTY1YWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmQ1Yzg4N2ZiMDA2NDJlMmE2OGNiMThhMmE5MjQxOWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZmI1YmNhNTM3ZjcxZTQyNGNmN2MyYWU0YjU0MTM4NTc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTBlZmUyZWZmZjRlZWRmNmM3NTI3OWM0NTU5YmE2MjQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGU2MzNjZTBiMjMwMDlkMWM5YWUxNzJjZjExYzRiN2I=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Mjc5YTVkYjYzZjgxOWFjMjI4ODQyMTIwYzYzM2VlNDI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmNhYmJmNzllYTQ3NWY5ZGExZjExNjg5YzExMTg4NTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTM4YWM2NWY3ODY3NDdlMTNhNTljMmI1OGRiMDY5ZmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Y2M0NjFiNGM2ZjdhMzU0OTIzZTk0YzAzNDhkMjcyMmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDc4NTlmOGVkNTg1ODc1Njk0Yzc3MjFkY2RmMzA3NmU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWFkMTAzYzMxZjIwMWZlYTFhOTVmY2RkMWQyMGRkMDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDg1NTI5MWFhMTAzZGQxZTI4YmNlZDA3MTFjZjExMWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YjAyZTI1ODhjMWVmMmU3MjcwMTRkOTkyZmQ3OGExY2M=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2YwNDA2OTU1YTBkMGE2ZDFkMGUzODg2MTlkYWQzZDM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGU0OWViZjRmZTQxYmMzNjMyYmIwNjE0YzUwNmRiYjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NmFhMDJjNzc1YTA3ODJlYzFkOGEzNzBhNGI0MjJiNjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGVhM2RiZmJkY2QxMGRiYWNhMjcxZWNmOGUwYmQ4OWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MjFjOGIyYzU2NjMwZmRlOTBmM2ZiNjUxYTJiYjY5NTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZjdkOTNiMDg2NTQ5YmU1NWJmZGIwODM0NGY4MGU4Yjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWE1MjJjZWQwZjRkNzZjNTA2NDg5YmIxNDdmMDU2ZTM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MWU3YjhjOGVmNTEzNTYwMmZmODMyYjkwMmViOTY1YWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTA0ZmY1OWM4NWE5NjcxODU3OTExYWI3ZTllNWZjNWM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NGUyMDMwOGFjMDdiZjQxMTQzZDFkMmU0NTQ4NWY2MGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTRlMmE1MGZjZDIwM2FhMzNiZmRmZGM4MzcyZTI0NzM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZWNmYzk4ZDIzMjllNWVlYWU3OTJkYTgxMDE5NzAyNjI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTBkZjMyN2ZiYzEzZWRhYTZjMTAwOTdhNGY2MjAyNjY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NDkyZGJkY2U0MmU5ZWIwNTQxMzFlOWVmYmQxMTUwZDU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjEyODUzNTdlZGNiYjYwNDJhYWYxMWFiYWQ5MzQ1ZjU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YTg5ODY0ZDY0Y2UwYWNlZjU0M2E0N2ZjOTY2Njk3ODY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MTljMTdhMWJiYTcwMzJlZTQ3NDgwOWYyMzdjNjg1MDQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWEzZTQxOTYzODA5MTJmZTg3NmYxMzc5MTdmNTFkNGU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTNmMjU1NTkzMWQxZTQ4YmM4YzhmYjAzMzFhOTkzMjM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzhjYjI3NTczMGZkOTc3ODNlZjI3NGRkMmE3MzIyZTk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YmJiOGFkNWM5NDUzN2EzMDViZTY2NTNhYTc1ZTE5NDk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NTY5Mjg0NWY2NDljMDlmYmNkNGJjMjgzZmYxYTMzYWI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OWE0YmQwODA5MTQ3MzI5OTRmOWY0NmM0NTMxMjRkMjE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Nzg5ODNlY2IxNDUyNTE3NWQ4ZmY2OTJjODY3MTIyNGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YWI1NGM5M2Q2ZTUxODE0NDc0YmZiYTdhZWRhZTFiMDY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/M2RkODdmZTg5OTRkYmNmOWUzNTVlYTFkNGMzNmJmNDc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/YzAwYjBkOWYwZmZhNmRkN2E5M2UxYTMxZjE0YzIxYWY=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTQ2NjkyNGRkOTU2MmRhZTI3NjI0OWI4ZWY1YjkzMWQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MmVkMTM2YmYwMzM4YjRmNjAxNTljNDU5OTRjMDMzY2U=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzJlMzhmNjEzYWUyZWZhOWQyMDZlNGU0ZTlmNzIzMGM=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjZlZGEwNThjNTM3MGE5ZDY1NDQ3YWRiZWRkMmM3MTQ=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NWIxMGYwNjAyMWYyZDFiYmM2NTg4M2UzMDNiYTMwNzc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjgzYWVhMDI0MGVmYzVlNTUyZjZiM2U1YjA2ZjJlYTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OTVkOWFmYTJhY2Q4MWI3NTExY2RkMzdhMTllMWQ5Yjc=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MDQ1MDIzMDU0YWJlMDE4MTFhYzc0MDk1NDQ0YmMzYmI=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/MzI5YzEwNmZmMWFhYzk2MDZmZDRkMDgxNTMxYWY4OGE=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/NjkyZTczODVkZWYyMjhjMzlhNDE0MDMzZmU5NDk0YWU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ZTAwZmM1NWY0YzRjM2FkM2NlY2EzNWVhNjZmNGYzYTU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/ODFhMzZlMmRjMjdkNDJiZmQ2ZTNkOTM3N2FmNTAxMjk=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/Yzk0ZjE5NmE1N2E3ZmQyODVlMzA1ZDkzNDJjZWNiMzU=
+Category : physical, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/physical/OGQ4MTA2MDY2MTcwMzliMjVlMjIxMzdmOWYwNGFhMDU=
+now in category : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTcxYWZjZjVmNzdjZDAwNTQ0NDkxN2JhOGUxOTlmYmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTM0NGVkYWRkOGIyYzI4YWMyOGJkNTU0MmU4ZmU4OWM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTE3OTYyNzk1NThhMTlkY2JhYTQxZjYzMDI5NTliNTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTQ5Yjg3M2MzZTczOGQ4YTgwYzZhYmY1NGM2NDAwODM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjNiNmM5NTc3OGI0ODgzYWY0MGQ5MDAyYzAyYmZmNTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGYzYWY3ZDFkNmJmYzY3MWEyMDBjOWU2ZWU1ZDZiYjk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWQwZmYxZTcwYmFiYzVlMDhjMWFhODFkOGRiOTk3MTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTBhNTlmYmI1ZDQ0NmNhOGZiYmYyN2Y3MjNhODNmMjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmYzNmUyMTE5ZTEwMWI3MjZiM2FhZTQ3OGU3Y2ZjYzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2Y3MzYzZWQ1NWY4NDZmMmY4NzU1YTE4NjczNjI3Yjk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjUyNTFlM2YyYzYwYjA2M2QxYjgyYjFjOTRlZTliM2U=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTAxN2ViNGVmMjU4MTRmMTMwY2JlMjNkZGNiMTYwNTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzRkMjRiMTFjMzQ3NmQ5MzVlODk4OGFiNjU0MjBkNjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZThjZTUxNjE3NDM3MzA2YmUwYWZhNWRlY2YwODQzNjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmZmNDlhZTJhMjA5ZTA0MmY1MmM4YzM5MjQxOGIxMGI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDRmMjE2MTIzMzM5NDA5NjVjZGU1NjIzN2ZlNzRkYWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGNlODMwOGZkZWJlYmZjYmRlNjUxYWY4ZjBmZDY3Zjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2MwN2UxMjBkNDIzMWUyN2Y1NzkyNzU2NDhlYTYyYTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGRmMmQwYTFkYTc2N2NhYzIzMzM1ZmVmNzdhY2I1MDk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTMyNDIyZDgwYWIwYTA1ZmVkZTdiNWQ2ZWMwMzlhNTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGM5M2ZkZTY0YmFkNGJhYWY5ZWIzNGUyYmNjYjA1MWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzUxYzk5NGQ3NTI1YzY5YjY5OGNmMGRkZjQ4NDg2ZjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzI0YzU0ZGNjZTBkZWZlNGYxYzVkMmQ4NDdhNGE4Y2U=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDY3YjFjMzMxYTUyMzM1MzM5OGQ0OTNkMzc3MmIyNjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTZhN2Y5NzYyOWU0MWVjNDY5MjZkZmQ5NDBkODYzODQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjI1NGRlMDM2NmQ0MmU0YmFmYzgxN2M3ZDk2N2IxNDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTM0MDY3ZDY4MGVjZTdlYWQ2OTFjNjI4NDc4MDc1OTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzIwNWY4MGFlYTA0MTk3N2IzNTFmZWMwYWQ1MDg1NzE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzgzNjZkMDBhMzA2ZGE4Mzk4MjU2YzgyMTA4MDI3YzE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Zjc1MjgzMzFkMWQwZTg2ZWUzOTFmMDJiYjQ0ZWQ2MzQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWFjZjIwMGZmNTVhMzc4YTQyZGRmOWYwOGRhNWUyMzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmM3MmY4MjEzOWE4NGYwMjMzN2Q5ZTZiNTFhZTBhN2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzA2ZTY5OTU1NjIzMGUzMjIyNGIzODg3OWIzMGM5YTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzhkNmYyZGNmZGEwNWI3OGRkODViMWE4ZjZiMjcyYTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmE1MjYxY2E4YmIxZmQ2MzdmZWY2MWMwNDNmOWZmODc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2VmZjE5NDdhYzAyNThkYWQyYTYwMzJiZTIwZjY3ZTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmVhOWZiMTE4YzlhNjkxZTFjNGYzOTMyZDQ3YzZlNWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2ZkZWU4NTJkYWNmNjBkZDNjYzIzMTVkNmNmNGM5ZDk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODVkZmU2ZDM5YjcyMmIyMmI1MTE5YjkzNGY0NjcxMTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmM2ODJjYWU0ZmFmNTEzYzNkYTllZWVhNTM5ZjcyM2I=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODBjYzY4MTliNzUwMzg1NTAwNGVlMTUzYjAyNTE5ZWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODU3ZjdiMDY4MWQxZDU0YjY0OWRkMWQwZTI2NTQ4OGE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTViYTFmNDM0ODc5NjQ0MDNiMDczNWZlYTc4YWQ1ODA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmUwZWViMmI0ZDg2NmE3Yzk4ZTNkNzMwZDM1ZjIwYzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmQyY2JiNjk5OWU0NTIxYjYzYzQzOWI4N2Y3ZmUyNmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmVkZGRmMTA1OGU2MDEyMjBhZjRiNWY2ODhlZTZjYTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzhiYWU1OTdhNzQ4MzRhMGJhNjQ4NTcwYjkxNjY3NGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWQwZTcxYzg3NmU3NTkyMWQxZThiYTEyZTMwZmNlN2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2M5NjE5OWZjMmZjMTc1NmJlZTgwNzNiYmU4ZjIxMDk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODhhZmU5MDg4NzVlMTJjNzYxNTNmZWZlZDc1ZjQxNDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDU3YzQ3YTBkMmFkNTkzNTFjODk1NGJhNGViNjZhOTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzBmNTk1MjM1N2NlNGJmM2NmNGMwZmMwNDc3MTg3Zjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjI2MjAxZjlmMDJlNDhlZThiZjU2ZTNjNjdiYmQ0MTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTRkY2UwZDJlZjJlYTEzZjVkZmNiNjVhNzZkZGIzYTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjAwNjE1ZTI3NjA5MjU5NjY3ZDg1Y2NkZjdlZDZkYzU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzczNDdlN2JmNjFkNzczNzAyZTEyMmQzMWJjMDI3Yzg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTkyYTQ1YWIwMzIzNDU5NmVmZGMyOTg1OGQwMDc4ZTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjdjMmVkMjJmYzRkYzhlNTUxNGIxZTU1MDI2OTg4ZmM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTFiYzgxN2QzNGM4MmUyNDRiMWY3YjMxYTI0NWNjM2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmNkYjRhNmVhMzliN2ZjMDA4MTkyODYxYzM0NGQyYjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODQ2ZjA0ZWVhNDQ2ZDFhODAyN2U3ODBjNmUwNDJjMDU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmYzM2YyYjZkNGJhYmIyNDhiNjQ0OGJjZmU5ODI1YWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDE2MzVjZmI1OTFmMGNjZDIxZmUyYzNhYTcwZjdkNTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODE3ZTQxNTNhZWY1YjA1OTE5NWViZjIxNmRhMDM3YzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmE5ZjY3YjdlZWM2YTdlMGQwNzI0NjlmYmVmMDU1Yjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjEwYWFhMTllMGUwNzk0ZDc5YzFjNDRhYzFlZjJjZDg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDhhMGUzOGFiZmEyYzlkYmFmOWFhMmE1ODU3MTQyNDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODhkODlkZGQ4N2RiM2RjNzRlYjMzNDdmNmFjMWNhMDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2NiMWMxNzY5YzE1MTdiZDg3NDdhNTg0Zjk0NzdlMzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Njk4NjYyMGU5Y2RmOTk0YTAwNDdlYWQ0ZmZlYzNlMTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Mjk1MWUzMzk4MmViMjM4MjQwMjdkZDZkMWZjYzZkNDM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTlhOWYwOGMzNTBhZDYwY2E5MjYwYTY0MzQ3ZmNlODk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2E3NzI2OWUxZjYyZjFmMDU1NWFiNDc3MmFkMDA1OGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmM3Njk0ZmY4MGNmYzI5NzkyOTMxMzNlYmM5Yjc5ZDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWFlY2EwN2YzODBkZTI0OTU0N2QxZjEyM2FjODQ4NmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmY4YzllMjU2NzQ0MDBjZjY0NTUzNTIzNTQxZGJhMDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjMwOGJkMjAyNjQ4N2ZlMWIyY2RkMDE4YjUzNThiMDk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjY4MWEwZjYwYmQ1M2Y0MzExODY4MzViMGZmMWI5NjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTE2YzcyMmVlNmExYTMwZGJmODI5ODEwOGYyMzk3NTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTlmMmZhZjhiMDQ1OGRjZjNhMTc2NzUwZDU0NDNlY2Y=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjE5MDZmMTM3ZDkxYTc4YzU1N2I4YmRhOGI1MWViZjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzM3MjIxMzE0ZDJkYzY5OWYyZmEyODM3MWYxZTc0MTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWExMTQ3MjQzMjE0NDg1NzI4NDcyYTE2YzFmOWVhOTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjhkZTA5N2E3ZTNhODE2YjFjMDc1MmEzNmIzZGU3MDU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NGMzN2IxZDM0YTgzM2QwY2Q4NjYxNDExYjE5YzExOWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2VhYWJmMGMwYjM3ZDdhZGM3NjdhMjMxMGEzOWM4YzE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2I5NzM0NzFlYWI2MzNiZTFlNjdlOWExMTc5ODk0NTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2YwODlmMmU5YzBlNjg1YmJkZjk5N2Y3ZDViZWQxMGU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWJiMGM3MzVkZDRjZjQwODhiNjFlMTYwY2U2MzdhYmE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTBkYzUxNmVhNjRmNGQ3Y2VmMmQ1NmU0ODdjYWE1ZDY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjlmMjUxNjAwYTUzMGM5MDMxNzhkYWYzZjRlMzI3NTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzExMGY1ZDg3MDdkY2FkY2FlMzk4MGU5OTE3YTQ1M2M=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGI2ZjI1MGE4YjYyNTYxZTAyZTE1NzUxNGEzZDZiOGE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWJjYTM5ZjUwNDU2MTlmNGQ4Zjk1ZDdmOTMzNmRmODM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmI4YWRlYzdmZjhkMTIxZGVjMzZiNWQ1YWUxYTg4ZjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDA0M2E3ZjhkYjM0ODlhZWI4YTQwZDQ5NDhhMDMxYzc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDM0NWM3ZWQxMDU2MmQzODE2YTBjZDc3YmEyOWU4MWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWEwMDdmMGIxM2NhYzEyZDEwNzQwZTIwNTc3YmI0NmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NGRlMmRjMWQ3MWY4ZjE1OWVlN2Q0YjNjZGU0MDg1NzI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGU2MjYzNjkxNjc5NmY1MjdjNzNkMjg2OTEyZmM0ZTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmY5MzU2YmQ4YmNmY2M4NTMxMjZjOTc3NDczMGEzYjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTk2MzQ5ODQ3ZTBiN2JiYWI2ZDA2ZjFjYmQyZGFiYmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWVhN2RhZGYxNTFhOWUyZjhkNDQxOTVjZTcwYjZiZWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmZiZThkODA2MTRiOGU5ZmIxOTJlM2Q4MTM4ZmMyOTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDY2YjI1NzI1MTMyOTgzNmRkNDgxOWExMzIxMTI1NDc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjBiYzZjOGFhYWNlNjI3ODJmZjU3MGRjMWU3YmQ3MzI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmRmYTIyMjZlN2YxYmJmMzY0YzliZjQ3MDVmMGMzYzQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjhlNWFkNTZkN2RkNDA2ZjRhNzc3YTMzMTcxMGFhZmM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDVkOTg4MGJmODgxNGJjYzU4Nzc3OTA4NWI3M2ZmY2E=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWQ5NzZmZmZlZGNiMjAwMTVkYTQ2YmUzYjQ3NjNhNjk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YThhZDdkMzM1NDU1OTllMGQyNmY4ODY5MTc4MjI3ZDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWRkOGQwNzcxNDc1ZjE2N2E0ZThkMjM4YjRkNjZiZjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGFhNjc2NGJhNjdmNzc4ZDRhYjFiMGQ3YmExYWI5NTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODU0YmM3YWUzNzk0ZjYwODRiMzEzNmMzODBmZDY2ZDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjM5NTdkOTZhNzlkMjFjYWU5ZjFhMDBkMWU1YWUyNTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzgxNWJlMjg0MDhlNzcxYWRlYzVjMzE1OTI4NTBmNTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGUzNTE1YjhkMWFkMzUyYWM3ZmNiNzM5ZDI0ZTUxNjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjE3NjE4MDIyNTJkMmQ2YjQyMmI2YTgwMjYxZmQxNmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmNmZjM1YjZlOTI2YTJlYTQ3MWQxNGM3NWIwMGNlOTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDI4YWJjMGZmOGY3ZTQ0MmFhNzVkYTNkMGNhMjA2NzU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWRlODk5NDRkNzcxMjJkYmIyMDliMDExMDM4YjE4YjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDdhMmY0OTkxZTljM2QwNTRiYTBiN2Y0ZjM5MGIzZWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDQyNDExZGY5NmNlYTUwOWYzYzQxZmQyZWNjZmRiNWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWFhMGJmOTU4NTkyMTgwZjE5YTcwZDdkMDBjZGU3ODg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjI5MzY5MWIzM2UzMjE3M2M4ZDFkNzA4MWU3MWE0NzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzJmYzhlNGExOTFkY2Q2YzI2OWI1YzZjNDMyN2JlZjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTFmZThhY2E2NTU2ODIyNDFiZDgyN2NjZDJlY2VjMzg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjU5NjMyM2FmMjI0N2RiZWI4Y2JhZmI3ZGVmYzg0ZWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWUyZDE3ZTYxNjEzZDNmNmVhMTY2NjMxZmU5MmZkYjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjMxYWIwNzQwMjZlYmNlNThlZTUwMjg3OWQyZTZmODQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjNlZjUxNGFlYTY5MTRmY2ZiMjBjNmY4ZTg2MzAzNzE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjY1OWUwNzFmMGRiNTU3NDA0MmRkNjQyMWVjZDU0ZjQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzU5MDVmNGFiN2Y3YzlkNTFhM2ZkOTRkOWRkNjhmYTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDNlZmJmNjY1M2U0NzIyYmJhNzRhZGUwOGM0YjhlMjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTkwMGY0NGU0MTc1ZjA1ZmQ4YzkzNTUzNzExNWU5OTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmFmMzEyNjEyOTliMzVjOTc0YmE4MjhlMmVmM2YwODA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDQ4ZWJlMDFhNzk0YjlkYTVkNTljNDliODRhYjEwMjQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmMyYjQ3ODkwZTJmZmZiMzk4YTc1ZDQ4Y2NkMzhiYTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Njc2MmM5N2RhMWVmMGZmN2FmYzc5NjVhY2JhY2Q5NTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTc1Nzk1Y2Y2Y2MwN2FiNWM3ZmUzYzM1MDdhOGU1MjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWU3NzE5NmVkODM4ZGYxOWMzZjcwMzVmMWZlZmY1YTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDY3OGE0MDY0MTgwZTU0NGQ5MmM2YjEwOWM5MzNmMjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Njg4ZTYwZDliMmM3ZjMwZjM2MDZjNDFmZDFkNzRkOTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjBhNTlkOTUyYjY0Mjk2MWJhYTlkOTk2ZmUyOWVkZTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzVkNGU5MDJkNzdiNmE3MjIxYzNlMWNmYTdmMjE3NTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzlkN2QwMmIwY2FmZDIyZjE1N2NiODA5YWFmMzkzNDg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NGJkN2E3YTdjMmNlNjI0Y2VhNzg1OWYyZTIwM2NjNWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTFhNjQyYzFmNWZjMWFkNGNkMGQ1YjkxOWM2NGZiNTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDk3Y2I0OWNhOTAxYTE1MGUyY2ZlNTEyNWEyNzI1NzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWFiNzQ3NDdjNjZkZTc4ZTM5MTJkNjM2OWNhYWQ1ZTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZThhZTI0YmMzNzMyZTdkMGVjN2FjMTI0MWJmNWQ1MDE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWQ3MzVjMGQ0OWNlMTdiNmQyMzRjMDk0ODUwMTQ1NjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTIxYzZhMDg3YmIxN2EwMjhhNzI5MTkwYTc4ZmRiZmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzQ3OWE4YzBiNzU4ZTJhZWRiMTFlNDg4MmY2YWQxNzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NGVkMmY1NDJiOWI5ZDdmYzYxZmE3YWJlMzA0Nzk4NWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDk1ZjM1ZWZhZTBiZjQyZTdhNGMxZmVlNjdlYWYyZTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmMzYmY2Y2YxZmQ5ZDhhZmJlNzdhODNkMzc3ZDExMDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjFiMDA3MDdmODViM2NhN2JiZjI4YTcyN2I5Y2FmNzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTZjNTVhYWIxZGU1MTllODlkY2IyNWY5NWY1NmY0ODk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWExNzI5NmRlOWQ2OTA4YThhN2M0MjNiNWM3Njk0YTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2JkNjU0YWZkMWNhZGE3NmE5NGNkMjgxNjY4MDgyMGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTVmYTgwYjRlN2FmYTQ1NDNjNTMzMzVmMGM1OWM4Mzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTEwOTZiZWMyZjViZTlmNDQ2MTZkNGVhODlhOWY4OTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2M0NDdiMTVkZTBjNGQ2MGRkM2RkOTE0Njg1MzE3NWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTYzNmYyNDNjNmZmYWNlMzA1ZTE4ZjJiODU1MjJmOTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWRjODY5Y2VlNzI4ZGU5YTJiMmU2ZTU0MDQ1MzMwNDc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzYwZWQyYjhmYzNlNDc2MGM1MjZkMTFkNWVlZGFiZmQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjVmOTAyZjM4OGIzOTliNGI0YTVjYjZhYWNlYmI2YzU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGI5NDgyNGM1NjhmZGRlYzdkYTJmMzMwMDQxOTBjM2E=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjIyOGRiYWEwYzZjMGIwODRjYmNmZTU2OWJiMzhlNTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmJkNzAzNWY0ODRkY2I4ZTNkNmIwMjNiZjViM2I1MWM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTM1YThkMDBmYjU1ZmYzYWZlMGRiMWEyNTc5MDlmMDM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTc0MTFmNmU4ZGM2OGRkM2IyNTQ3Y2ZkYjc1OWYwNzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTMwYmY1ZGU5YmZkOTE5NDRiMjE2YzNlYWZlYzAzNDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTQzZjNmZGFkNjQ0MDEyNzY4NWRkYzBkNWJjYzc3ZDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWNiY2Q2N2I5YzMwZThmOTdjOThkYmZmOWM0ZjVjY2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmEyZmZlYjczNjBlODJjNDAyNWI3ZWEzZjlhYjllNGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Mzk5NzQwOWI0YTk2MWFmNTA0NTM2ZmZkMjdhOTRlOWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjU5NzA4ZmQ3ZjFkMzFhNmFlNzU2ZGY5NGYxOGM0Y2I=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2U0NDNiMTNjOTRmODQ1OTA2Mzk1NWNhYzIwZDE4MTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmMyZDFhNDk5ZGRmOTg3OTYwODVkZDI3MTVlYjQyY2U=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDI1MjE2ZWQ5NTg3NDAxYjBiOWJjOTNjMTk0MmFhMmI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDc1MmFiNDFhMWMyMzRmZGFiYWFjMDRiYzg5YTQ5NmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODIwMTFiMjNlNmVlZWQ3YzEyNDBhN2EyYTI2ZmI0MGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWJmNDhlYTYzYmM2Y2YwZGJlZGMyNzlhZDMyMjFhMTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzE4YWRjZjMzOTYzYTg5NGIwYzExNmMyYWE3NGE2MTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTQ3NGZkNDI2MDIzMmNjZTcyZTQ3NDA1NDhmMDdmN2U=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDJjNTFlMWZlMDdjNWZjMzQ5OGM2ZDI2NTI5ODRjNDY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzQ5YWRlNmI1NTI1NDFkYTE3YjZiNjE0ZGQ0MTRlYWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmM5ZTZjMWFlZTlkZWMxMWIzYTVlYjI5ZjU1YTc3YTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjQyNGU2ZTUyOTZlN2Q0MjhlMWQwOTk3NjBiYTg1NTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjUzZDc0NjAzYmJjMGJiMjJjMDI5YTIzMDA2ODI3YzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2UxMjRlNWM2NjlmZDAxNDNjOGVhMGNlNDk1NDlhNWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzI3NGE2NjVlNDEwYjE5ZGMyMDUxODllNzE4M2RmOGI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjA1ZWZkM2NlZWJmNjM0N2ZhYjYwMThkMTIwMGIxOGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDAzYmMzOTE4MGEyOWI2OGY0YzBkZWI3MmQ2NWNjNWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDk0MDZlZjc2YzUzYjc5OTgzYTYxZWQ4ZjBmZmM0Mjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTY0OWE2YWZlZDY4YTI1MTUzNjhhNWI1NTM1N2RiZTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OThlMjg2ZWQ1ZWU4MDEzYmNlOTU0MTAyYWY1ZDgwNWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzZjYWYzYzVkZTY3YTMyN2UyNzY4NGVhMjRjOGE0NWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2IyM2EwMzRkNzYwYzNhYzJkMzU0Y2U1MjgyOWE5MTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2Y2NTE2ZjE0ZGEwZDAwOGM0YTc5ZGFiZmMyNWE3NmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmNjOTkwZWEwZWY4MGVkNGQ5OTUxNDU3Y2RjZjIxMTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDFkMWQ0YzliYWExYTUzODYzOGM4MjRhNWExYjEyNjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWM0ZmY5ZWQxNzdmNTNlMDA1MGQ1NDg2ODZmMjAyM2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2MyOGNhNWI1ZjExMjgzY2JhZTNkNDA2ZDAzMmJkNzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGU1NGIxM2ViMmFmMzRlMGFjOTNmZGYzMjdlYzlmOGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWU1OGQwM2ZjNDMwZGE0ZTkzNTg1Y2NmNmY3YmRhMjU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzgxMDNlYWQ3OTU3YTIwYmUxNjQ4MDRiYTZmOGJjMjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NGQyNjk3NTliZjQ3M2ZhNGZmNjZjYzIwNzU2MDc5MGY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODgxMWU3OTRkMzUwYmZkMWE1OTdlMGZjMWQxNThjYWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjdjMmFhZTVjNGVlNjI5Yjc3NjExMmE2YjFiZTFkNTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWVhOWMxOGY1ZjEyMmFkYTM5YTc2ZDI4OWVhNGJhYTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Yzg2ZDdhZjdmYmM5NDg3MjMxMzI4MTAwYzFlMjBlYWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDQ4Njg3ZjAyMzVmMGI1NjZlOWJjOGYyMGM2ZDVmYzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTQwMDk4YzRjMjg4OTI5NjljNzYzOWY2OWZjMWMzMDE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzIyMTQwZTk3ZGIyZTQ4OTZiODliZmRlYWJiYjQ1MWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGZlOGY1NWFhNDIxNTM4YmM4NWNkNGE5N2ViZmE1Njk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGU3Y2JkMWNjZWQ4NmQ5OGEwM2ZkYWRlMWVhZWQwMTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWJhYTk3NGM3YmMyNjAwY2I1NmQzMzdiYTdkNzA3NDg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWJhMGJhODhjMDMzZDZhY2RmMDVlMDEyOTRiNjZhZjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NThlZDI3MDU0ZTE3YTMzYzI0MjhmYWM1OTFlNWM3N2M=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzljOTkzNjYyMWY1ZDQzN2Q0NWVkOTU1MGZlYTMyNTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmExYzc3NjVjZDA1ZDZhYjg3MmNiYjdkYjQ0ZWNjMzI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGUzMzdjNDdkOGMyNDRmZTQ4Yzk1Y2M3Zjk4ZTVhYzU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjMwOWViZTZjZDRmNDVhM2IyMTkyYzc4ZDcwMTIwYjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTBiZWE3N2Q1MTAwNWQ2NDYyZDhhZjBkNGY0ZWNmNzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGIzMTk4OWI1Zjg2ZTA4NjNmY2IzMGE0MjBiYzE0Zjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTQ5ZWM2MTAzYjU5OGU2NTlhM2M3ZWZmMmM0YjFiMDE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTA5ZWUyM2M3MzYwZjg4NTIwOTMxYjY5Mzk3MDMwYzU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTMzYmIzZTE4MzAxMDRmYjY3YjQ3NmRjOTc2MzljNmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjVlNDQ3NmMzYTY0YWUzOTA0NDk1M2QwZjVmODAyNmQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2JjZjA1YTdkMzdlMjI5N2UwZTFlNGQ5ODc5Y2I1OTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTM5Y2NmNWUxMDY3NDc5Yjg1NzcwOTA2NjBiMjA5MjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTlmMmU3MTJjNTQ5NzMwNTVkOGViMjgxYTRhY2ViMWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmY3MDBhZjdmMTJhM2Y1Zjg4ODFlNGU2OWI2NDFlN2Q=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTVmOWU0ZTViYzFkYzU1NGU5YmZiYzIzMjRhNzVhOGU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjZhMmEzNmYxODIxMTA5ZGU2NGMwMzVjODVkYjRjODE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTZhOWVmNjUwNTQ1NTFjOGViNjRiMTgxY2ZiNGE0NTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWI1ZmNkMWVhOTY4N2RmNDIxNTgxOWFkYjA3OWNlZDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjRjYzg2NDJiMDA1NzEzMGRlMjc2MzFlNjkzMTVlYzc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODlkN2FjZjg1MTM0NGI0ZTg1YTliMWIxOTI2M2Y1NTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/N2E4MzRhYWIzMjQ3ZDc5MGQxODY0YmMwNDgxYTIxMmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmRhM2I5ODE2YWMzMzQ1NDQxOTNiZTk4ZGQzMTQ0ZmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmI0OTczNDQzZGM5NjQ4ZTRmMzg1MmViMDQ3OTAwNWM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWM4ZmNlYmMxYzc3NmI4ZTg2ZTdlNjQyMDNkYzA3ZjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDJhNjI1ZWY1ZTdkMDI1ZjQ5ZmY1NGMxMTIwYTljNTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YmE0ZjIxNGQzZTIxMTJmZTg2YmQyZTEyM2E1MGI1YzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODVjYTZlNjYzZTQzMDU2NzM2ZWE2NzFmNDc5NWUyNWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDNlZjNkM2YxNjRiMDA4OGE4OTE5ZGQzZDJiZDdhZTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWYxMTQ2YjUyZGIwZDAxNjEwZDkyNTc0MTc0MTQ5ZWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDlhNWZkOWFkZjQ4ZWZmNWIzZGYyZWVjMjc2OWQ5YzQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzVmZWI4MmMwOTY2NmFkY2FiY2RmMWFkMGM0ZTEyNTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGY2NGVmY2NjMTJmYzBjMTU2ZGUxYmEwMTEwODY2YmE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWQwZDI1MDhmOGRjM2MxNDU2YmM4NzVmM2Y5NmMwOTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWZiMTBlNmJjNmY3ODgzMjc1MmMzM2QzODk4NzBkZTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTAxODhjYzBiMzQ4ZmY3NWM5ZjIyOTdlZGVhYmQ0ZDM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Mzg0MmFmY2QyZjhjNzJlZDQyMzFjYTBkYWIwNjVlOGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzhkOTY1NDFhMGUwYjY3ODkyNjNlNmFlYTZiNWEwMjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODc3ZGUwODY1NmU5N2MxNjUyODc3ODdmMzEyNjcwNGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDVlZTMxZGQyNDc1ODM5MTQ3N2VmN2VlNDRmOTY0ODQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Y2Y5MDk5ZGQ1MGRlYmMzYzBiODcxYzY0OTA1MGZjNGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmExMmZmNDczM2FmMDM4ZjYyYWY5MDFhOGY1YzM1Yjk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWExOWU0MWYyMjYxZjc5YzM2MzMwZDNlNmJiOWExYmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWViM2RiMTA5MmI2MWYyZWI2MTcwNDQ3YTI0YTkxYTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjE4MTZjOGVjODM4MjdmNDVkMzM4NTJkYjY4NTVjMzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmYzMzRlNjUyZmQzODU1ZjJhN2VlMWE5MmNjZTQ3YjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmQ5NjNjODRhZTg0MDZhMmVmNDU3NTg4YzU3OWEyMTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWYxMjEyNjJjMjM2MGRhMjkyMDk3ODYzOGEyOWJmNjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZTdlNWQ5MGIzNGMyMWNjOTdhYzA2OGJjZTFkNDVjZjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjkyYTEzYjcwNjJhOTQzZjgyMjM3YWYzZGY5ZGYwYWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmM0Nzc1MzY1ZWQ2ODAxYzZjOGQ0ZTY1ZmZkYjcyZGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGNjMThkYzg1ODlmNDQ1NjJmODA5ZTYwM2RkMTM4YjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDM4MzY3M2RhNzVmNWEzNDIyNmVlNGNjZGJjOTdkZmY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzYyYzhhYTYyNjA0ZjBmOWRiNjkwMjM5ZjQxZmM1OGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmQ5MmE5MTFmMDgwNTI2NDJjYWMzYWI4ZGE3MmRkMzQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjFiMzEyM2U2NjM2YTljZDk0NjZkYWNkNjkyNmUwZmE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmE0ZTM3YmFhNmNmZWI0Y2M1MWU1YWI5NzBiNjM1YjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWM5NGMyNmUwZDY1ZDlmNzg5YTRhZDgyMmZlNzI3Yjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzRmYWJhYjRjNjRlZTdhZDZjY2U0Zjk1MjBjNmNlMTk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTE4NzI2NDQzZDJiMzY2NTU5Y2UzYmUyOWU1ZjRjOTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MzJhZDZlYjNlYTBkNjUxZmExYmEwNjM5ZmVkY2NlMzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmRmZTNmODIwYmNkMjRmNWJkYWMzMzFkMTAwMjg5NDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODRjMzVkNjFkYTU1YTA2ZWQxMmU1N2NmNDhiYTM4ZDg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWNkMWY4YzU1ZmZlNzJmMDEwODc3MjBmZmY5ZDI4ZmM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OTIwOWE1M2QzOTMyYTIzNTZlY2I2YmZiYzBjM2UyYWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmQ2NjM3ZTMzMjlkZDA0M2I5ZmQwY2E2ZmU5OWRmYTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWUxZWI3MmQxNDZiMmVmYmM3YjUzNzJiZGRiZWNiYmU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDY3ZDQyOTIzMzIxNmE1MWM2YjU4NTg5YTRlZGY3Y2M=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODdhZTQzZmEzNmRkMTczOGY5NTIxMTQxYzRlNTc4NWY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODY5MzhhYzZlOGUwMWU1NDBkNDMyNDY4NjNlYjhkMjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmM1M2RhNmQ0ZmE2NDE5YWZmYjIzZjRiMjE1OWM0MjI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTUwMTliNDY2ZTBiZWE4OTJjNTMwNmZjYWI0ZWZmOGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTJiM2Q1MzhmZjI5MmRlZDExOTRhMmMwNTU3MzZjZWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2VhYmYzYmEzOTAxNzA4MmRmZTRiODg2MzFiMWE5ZTg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzFkMmM4ZjllNjZhYzhhYjk4MDIyNDA3MGYzNDkwZWU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWRiYjdhMmY5NDBjZDk3NDdmYTkxNDc4ZmZkNDFmOTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Zjk4YTg0MGVmNzZjYmE0MzEwNzA4OGQxMGRmNmJlMjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGNmZWQ0NmVkMTc5ZjZhOTAyYzE2NWJjNWFjZmMxMjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzU3MmZkYTYwMTEwMGU4OGU2OTJmNjBmOWQwZGE3OTc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWEwNmUyMTdhODM4ZDVlZWZhMWYwNzQxOTdlMWViNjk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NThjY2ZhNjRhMzNkNTM3MThlMGRlZjA5OGNkMzc3NDE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjA0N2RjNmVhOWZiNDQ0NmY3MWI1OGE0Yzc5MWJlN2I=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWVlZjdkOWIyNDMyMzAzMzUzOGQ3MTYwY2E3MTYwZGI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDAxOWU1ZDQ4OTUxMjA4NGIwZWNmMTE4Njk5NmMzMTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjVlMDdkNWU4YjA5MWI5MGIwZTg0M2NiN2I4ZWFmMWM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YWZlNWZkMzZjOGU4MzRjNjJkNDAxNWRiYzdkNmJiYzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDU3ZTY1ZDQyZmFkZWRiOTNmMzAzMDRjMThlNzYwMTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Njk3ZTc0YzIxMTFlZjI3NzFlZWNiM2IyMmJhNTQxODI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzgzZmYxZDBhNGU3MzI2MWVjNmQ1M2I0M2IyMjc2MzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWYxMjE4MDg2NTdhMzgzOWMzNzY1N2VlNjU5ZWQ3Mzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTRmZTRiYmI0OWRjNzI1YjFhNzFiMDRlNWUxOGUzZWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTYyZTgzZTBlNzlhZjcxNmQxMDVlNzc2ZGNjZTE4NTA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDhjNTU0MDMyYTZiMmJmNDlmODBmODEyNDU4ZTYwNzY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDYyNGU0Y2JkYjU2NTE3YTQzMWQ4NDQzYmQxNTc0Yjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MjM2NGEyMTZjZTE3NmZlODljYWJiNzI4MDZjMTExZGE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NmUyMDcwODY5MDRhNzQ1ZTM3ODA4NjUzYTA1ZDA4MDI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjI2ZDNlZjA1ZWZiNGU5MTI3YmY3N2RkNjI0MzhmZDg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZGRiY2QxYTU0YmIxYTJiNWQwZjExNjFlMmM3YTZjYTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ODMwOGU0NzNkYTQyMWI2NDc2NzkzNWU3MzU5YmM0NGM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDRiZWE0MTA0NTg3NjQ3NGUzMzU3ZDZhZDllNzA1OTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmY1MGJmODY1ODA4ZDQzYjlhYTAwMGQ0MGRmODVmZjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YjE3NDRlYWZkMDljYjYyMDAyNTMzYjZhM2VmMzMwYzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NThiNTg3Nzg2ZTdkMzYxM2NjMWNiNGMwYzY1ZDFmNzE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Zjg3MjFiM2IxYTE4ZTZmMzVmNDU3MGI4OWVhNDZiZWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTU3ZmY2NDBiODljMGNiMmFjMWMzODIyYjFmN2ZkNGQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmJkZjhmOWJhYTIzZGMxYTczNDNiMjRkMDNmZTIxNzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/M2ViMWQzNDgwYjc3ODY0OTY2ZDcyMzg1NjNlZDIyNmQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NWUyZTI5MjI5M2ZhNjk4MjRlOWIxNWU2OGU1ZTg2MDE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MGFjOTQ5ZTIyNTY2NTY0NzBiNjYzYWIzZTc5NWZlYjg=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MmEyMjBiMDU2NjFiMjY4YTQwMTFiM2U2MzA1OTMxYWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OWQ1M2U0YjE1OGIxMzQ0NGU0ZmE5ODg3Y2Y0ZDYyMTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTEyNTQ0MzdkYmY2YzM4OWY5MWRlNTlkOGEzOTZhZmE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZjU4M2YzMzNlM2M0NDI0N2U1YzQ2MmZlNDUxYTlkMzM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZWY3NGRiODEwOGU0NDM3ODRhYjFlYjcwNGZlNjU5YzA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Mzg0MzBhNDY3ZWIwNjExYWM1NWJiMWRlOTU3NzJkZWQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTQ5NGY2NDJhMTM0MzkxNDkwMTZmYjViNzlkNjgzMzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTE4ZjQ3NGM4YjZmOGQyMWE1NzEzNGE3Yjk5MTM5NmI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDY2ZmJmNGYxNTk1NDhiMGVmNmNiZDIxNDlkM2M3MTI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTRjZjk4ZjQ3ZjRiODM5YWQ3Nzc3N2RhNjQ2M2EzYTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZGNlMTEwOTFkNDlkNjIzOThkMWNhYmQzYzhjMGIxM2U=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDg0MTg0NGIwMjU4MmUzMWMwZGE3ZGIzMmJiMWYwZjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/Yjg2ZTdkYTliODc4M2ZkODE4YTFhN2RiZTJmZDcxNjE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmQ0MTE2M2FjZWNkMTE3NzllY2ZiYTBjZTQ3ZTIxNzk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTc2Yjc3ODJhMGFjMzVjZmVjMDhiMmUxMWIwYjllNmE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YTFjMTJmNzE5NGNjOGRhZWU5NmJkNDFhMTZlMWY3ZGU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NDI5MTdkYjk0OGIyOTQ3ZjAzZWQ3NjVlNjBiNjkwMjA=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/OGFhYmM2MGY3N2FiZjY2ZTExYTYxZTA5ZDE0N2ViZWI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmQ0ODYyNGI4OTg2YjFiZDYzODVjNjk5MDI2NzBkNjM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZThjMjlhNTk0ZTgwMzAzMDk1ZTcyMTU4YTFhNDg5ZmQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZGUzMWQ4N2EzNmUxODBmODRhNTE4NDBmOTk2MTUwOTU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/YzVlMmE3Yjc4MTRiM2Y4OTY5ZWYwOWFlMDhiNzAwYmQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NjE0NWQ5ZTk2NjE5MWY3MWVjMGVmZjgwNzVhOTJkZDQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWFjZTFjYjM4ZDVlYTk5YjcwZTE5NDJiNjA0NWUwZWE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTMwOGQ5NDE1YjYwNWE2MjkyZmU2ZDBhN2Q4MWZkNDk=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZmI4N2Y4MGJjMWRkYTI0OTFhMGM5NGQ2MDcwMjYyYmI=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MDQwZjYxN2ZlMjNmZjUwM2JlMWI5OGFmNzRkYTA5OTE=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTNiN2NkZWZmYjM5ZWQxMzExY2IyNTgxM2E5ZDBlYTM=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MTMwYTgzMDU1YjhlM2M0YTkzNjk2NTQ3NjJlNjIyZDU=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NzE5YzdhNmNlZWNmNTYwYjllNzIwYTNjNThiODBjNjc=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTUxOWEyYzQ4NTE1ZjgzOThhYzU1ZThlMTBmNzUyOTQ=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/NTUzMTdhZGZkMGJhY2U0MTEyYzQ5NmZlYjBkYTdlNjY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/ZDI3NTNhMjE3MzU5Yjk0NTU0NmJmYWJlZDYxNGEyOTY=
+Category : grayscale, of : /media/xendity/data/atiqah/dataset/testing_dataset/train_val_cropped/grayscale/MWY1N2Q5NWQxOTc1MmY1OTEwY2I2NGRjMmQ5ODRhMjE=

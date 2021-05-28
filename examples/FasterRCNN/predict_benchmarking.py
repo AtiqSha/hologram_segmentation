@@ -12,6 +12,7 @@ import glob
 import copy
 from pathlib import Path
 import pandas as pd
+from datetime import datetime
 
 import tensorpack.utils.viz as tpviz
 from tensorpack.predict import MultiTowerOfflinePredictor, OfflinePredictor, PredictConfig
@@ -335,6 +336,7 @@ if __name__ == '__main__':
                         # break
                     # break
                 else:
+                    start_benchmarking_time = datetime.now()
                     # multiframe just to check results comparing physical and printed
                     # benchmarking is using 3rd approach - comparing overlapping frames of images
                     outpath = args.output_inference
@@ -384,10 +386,12 @@ if __name__ == '__main__':
                                 os.makedirs(csv_outpath)
                             df_holo = pd.DataFrame(by_category_holo, columns=['Onboarding ID', 'F1', 'F2', 'F3', 'F4'])
                             df_dist = pd.DataFrame(by_category_dist, columns=['Onboarding ID', 'F1-F2', 'F2-F3', 'F3-F4'])
-                            df.to_csv(r'{}holo_scores_{}.csv'.format(csv_outpath, category_name), index=False)
-                            df.to_csv(r'{}distance_score_{}.csv'.format(csv_outpath, category_name), index=False)
+                            df_holo.to_csv(r'{}holo_scores_{}.csv'.format(csv_outpath, category_name), index=False)
+                            df_dist.to_csv(r'{}distance_score_{}.csv'.format(csv_outpath, category_name), index=False)
                         except:
                             pass
+                    end_benchmarking_time = datetime.now()
+                    print('Elapsed benchmarking time : {}'.format(end_benchmarking_time - start_benchmarking_time))
         elif args.load_pb:
             print('predict using pb model')
             if not benchmark:
