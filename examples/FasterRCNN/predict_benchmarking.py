@@ -107,7 +107,7 @@ def do_predict_ckpt(pred_func, input_file, output_filename):
 
     holo_perc = 0.00
     if results:
-        print('Results is not None')
+        # print('Results is not None')
         all_r = []
         all_c = []
         for i in results:
@@ -140,6 +140,7 @@ def do_predict_ckpt(pred_func, input_file, output_filename):
         holo_perc = calc_holo_scores(edge3d)
         viz = np.concatenate((img, final, edge3d), axis=1)
     else:
+        edge3d = np.zeros((img.shape[0], img.shape[1], 3))
         viz = np.concatenate((img, final), axis=1)
     ann_holo = str(holo_perc)[:6]
     #     cv2.imwrite("{}/{}_{}.jpg".format(outpath, base_name, ann_holo), viz)
@@ -157,7 +158,7 @@ def calc_holo_scores(viz_image):
 
     holo_cap = 0.36
     # all_pix = img.shape[0] * img.shape[1]
-    holo_overall = img.shape[0] * img.shape[1] * holo_cap
+    holo_overall = viz_image.shape[0] * viz_image.shape[1] * holo_cap
     # holo_perc = n_white_pix/all_pix
     holo_perc = w / holo_overall
 
@@ -277,7 +278,7 @@ if __name__ == '__main__':
         pb = True
 
     # print('is benchmarking : {}'.format(benchmark))
-    multiframe = False
+    multiframe = True
     if args.predict:
         if args.load_ckpt:
             print('predict using ckpt model')
@@ -348,6 +349,7 @@ if __name__ == '__main__':
                         # onboarding ID contains folder of onboarding id (by 4)
                         by_category_dist = []
                         for ob_id in onboarding_IDs:
+                            print('Category : {}, of : {}'.format(category_name, ob_id))
                             images = glob.glob(os.path.join(ob_id, '*'))
                             ob_id_name = getFilename(ob_id)
                             det_outpath = '{}/{}/{}/'.format(outpath, category_name, ob_id_name)
