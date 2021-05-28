@@ -204,7 +204,7 @@ def getFilename(path):
 
 
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
     parser = argparse.ArgumentParser()
     parser.add_argument('--load-ckpt', help='load a checkpoint model for evaluation.')
     parser.add_argument('--load-pb', help='load a pb model for evaluation.')
@@ -343,39 +343,51 @@ if __name__ == '__main__':
                     parent_folder = glob.glob(os.path.join(args.predict[0], '*'))
                     # parent_folder contains - printed & physical
                     for category in parent_folder:
-                        print('now in category : {}'.format(category))
-                        category_name = getFilename(category)
-                        onboarding_IDs = glob.glob(os.path.join(category, '*'))
-                        # onboarding ID contains folder of onboarding id (by 4)
-                        by_category_dist = []
-                        for ob_id in onboarding_IDs:
-                            print('Category : {}, of : {}'.format(category_name, ob_id))
-                            images = glob.glob(os.path.join(ob_id, '*'))
-                            ob_id_name = getFilename(ob_id)
-                            det_outpath = '{}/{}/{}/'.format(outpath, category_name, ob_id_name)
-                            if not os.path.exists(det_outpath):
-                                os.makedirs(det_outpath)
-                            all_holo_scores = []
-                            viz_outputs = []
-                            dist_scores = []
-                            # by_dis = []
-                            for image in images:
-                                image_name = getFilename(image)
-                                viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image,
-                                                                         '{}/{}'.format(outpath, image_name))
-                                cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
-                                all_holo_scores.append(holo_score)
-                                viz_outputs.append(final_edge)
-                            dist_scores = calc_dist_scores_app3(viz_outputs)
-                            temp_dist_scores = copy.deepcopy(dist_scores)
-                            temp_dist_scores.insert(0, ob_id_name)
-                            by_category_dist.append(temp_dist_scores)
-                        csv_outpath = '{}/{}'.format(outpath, 'results_csv/')
-                        if not os.path.exists(csv_outpath):
-                            os.makedirs(csv_outpath)
-                        df = pd.DataFrame(by_category_dist, columns=['Onboarding ID', 'F1-F2', 'F2-F3', 'F3-F4'])
-                        df.to_csv(r'{}distance_score_{}.csv'.format(csv_outpath, category_name), index=False)
+                        try:
+                            print('now in category : {}'.format(category))
+                            category_name = getFilename(category)
+                            onboarding_IDs = glob.glob(os.path.join(category, '*'))
+                            # onboarding ID contains folder of onboarding id (by 4)
+                            by_category_dist = []
+                            by_category_holo = []
+                            for ob_id in onboarding_IDs:
+                                try:
+                                    print('Category : {}, of : {}'.format(category_name, ob_id))
+                                    images = glob.glob(os.path.join(ob_id, '*'))
+                                    ob_id_name = getFilename(ob_id)
+                                    det_outpath = '{}/{}/{}/'.format(outpath, category_name, ob_id_name)
+                                    if not os.path.exists(det_outpath):
+                                        os.makedirs(det_outpath)
+                                    all_holo_scores = []
+                                    viz_outputs = []
+                                    dist_scores = []
+                                    # by_dis = []
+                                    for image in images:
+                                        image_name = getFilename(image)
+                                        viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image,
+                                                                                 '{}/{}'.format(outpath, image_name))
+                                        cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
+                                        all_holo_scores.append(holo_score)
+                                        viz_outputs.append(final_edge)
 
+                                    dist_scores = calc_dist_scores_app3(viz_outputs)
+                                    temp_all_holo_scores = copy.deepcopy(all_holo_scores)
+                                    temp_all_holo_scores.insert(0, ob_id_name)
+                                    temp_dist_scores = copy.deepcopy(dist_scores)
+                                    temp_dist_scores.insert(0, ob_id_name)
+                                    by_category_dist.append(temp_dist_scores)
+                                    by_category_holo.append(temp_all_holo_scores)
+                                except:
+                                    pass
+                            csv_outpath = '{}/{}'.format(outpath, 'results_csv/')
+                            if not os.path.exists(csv_outpath):
+                                os.makedirs(csv_outpath)
+                            df_holo = pd.DataFrame(by_category_holo, columns=['Onboarding ID', 'F1', 'F2', 'F3', 'F4'])
+                            df_dist = pd.DataFrame(by_category_dist, columns=['Onboarding ID', 'F1-F2', 'F2-F3', 'F3-F4'])
+                            df.to_csv(r'{}holo_scores_{}.csv'.format(csv_outpath, category_name), index=False)
+                            df.to_csv(r'{}distance_score_{}.csv'.format(csv_outpath, category_name), index=False)
+                        except:
+                            pass
         elif args.load_pb:
             print('predict using pb model')
             if not benchmark:
