@@ -131,3 +131,5 @@ dmypy.json
 # Models and outputs
 examples/FasterRCNN/models/
 examples/FasterRCNN/outputs/
+*/nohup.out
+*.out
