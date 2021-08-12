@@ -24,7 +24,7 @@ from dataset import DatasetRegistry, register_coco, register_hologram
 from config import config as cfg
 from config import finalize_configs
 from data import get_eval_dataflow, get_train_dataflow
-from eval import DetectionResult, multithread_predict_dataflow, predict_image_ckpt
+from eval import DetectionResult, multithread_predict_dataflow, predict_image_ckpt, predict_image_pb
 from modeling.generalized_rcnn import ResNetC4Model, ResNetFPNModel
 from viz import (
     draw_annotation, draw_final_outputs, draw_predictions,
@@ -97,10 +97,9 @@ def do_evaluate(pred_config, output_file):
         DatasetRegistry.get(dataset).eval_inference_results(all_results, output)
 
 
-def do_predict_ckpt(pred_func, input_file, output_filename):
+def do_predict_ckpt(pred_func, input_file):
     img = cv2.imread(input_file, cv2.IMREAD_COLOR)
     results = predict_image_ckpt(img, pred_func)
-    # print('#####\nResults : {}\n#####'.format(results))
     if cfg.MODE_MASK:
         final = draw_final_outputs_blackwhite(img, results)
     else:
@@ -123,21 +122,6 @@ def do_predict_ckpt(pred_func, input_file, output_filename):
         idx1 = np.stack((all_r, all_c), axis=1)
         edge3d = np.zeros((img.shape[0], img.shape[1], 3))
         edge3d[list(idx1.T)] = 255
-        # n_white_pix = np.sum(edge3d == 255)
-        # w = 0
-        # b = 0
-        # for pixRow in edge3d:
-        #     for pixCol in pixRow:
-        #         if pixCol[0] == 0:
-        #             b += 1
-        #         else:
-        #             w += 1
-        #
-        # holo_cap = 0.36
-        # # all_pix = img.shape[0] * img.shape[1]
-        # holo_overall = img.shape[0] * img.shape[1] * holo_cap
-        # # holo_perc = n_white_pix/all_pix
-        # holo_perc = w / holo_overall
         holo_perc = calc_holo_scores(edge3d)
         viz = np.concatenate((img, final, edge3d), axis=1)
     else:
@@ -145,6 +129,37 @@ def do_predict_ckpt(pred_func, input_file, output_filename):
         viz = np.concatenate((img, final), axis=1)
     ann_holo = str(holo_perc)[:6]
     #     cv2.imwrite("{}/{}_{}.jpg".format(outpath, base_name, ann_holo), viz)
+    return viz, edge3d, holo_perc
+
+def do_predict_pb(sess, input_tensor, output_tensors, input_file):
+    print('input fn: ', input_file)
+    img = cv2.imread(input_file, cv2.IMREAD_COLOR)
+    results = predict_image_pb(sess, input_tensor, output_tensors, img)
+    if cfg.MODE_MASK:
+        final = draw_final_outputs_blackwhite(img, results)
+    else:
+        final = draw_final_outputs(img, results)
+    if results:
+        all_r = []
+        all_c = []
+        for i in results:
+            data = i.mask
+            binary = data * 255
+            dilate = cv2.dilate(binary, np.ones((7, 7), np.uint8))
+            erode = cv2.erode(dilate, np.ones((9, 9), np.uint8))
+            # edge = binary - dilate
+            idx_r, idx_c = np.where(erode == 255)
+            all_r.extend(idx_r)
+            all_c.extend(idx_c)
+        idx1 = np.stack((all_r, all_c), axis=1)
+        edge3d = np.zeros((img.shape[0], img.shape[1], 3))
+        edge3d[list(idx1.T)] = 255
+        holo_perc = calc_holo_scores(edge3d)
+        viz = np.concatenate((img, final, edge3d), axis=1)
+    else:
+        # viz = img
+        edge3d = np.zeros((img.shape[0], img.shape[1], 3))
+        viz = np.concatenate((img, final), axis=1)
     return viz, edge3d, holo_perc
 
 def calc_holo_scores(viz_image):
@@ -220,10 +235,12 @@ if __name__ == '__main__':
     parser.add_argument('--output-pb', help='Save a model to .pb')
     parser.add_argument('--output-serving', help='Save a model to serving file')
     parser.add_argument('--output-inference', help='Path to save inference results')
-    parser.add_argument('--threshold_benchmark', help='Get threshold of hologram score for multiframes images')
-    parser.add_argument('--individual-benchmarking',
+    # parser.add_argument('--threshold_benchmark', help='Get threshold of hologram score for multiframes images')
+    parser.add_argument('--threshold-benchmark',
                         help='Get result for all individual frames images, current in multiple categories')
+    parser.add_argument('--multi-frame', help='Run on single frame or multi frame images', default=False)
 
+    # sending arguments by list instead of command to run on jupyter notebook
     argms = ['--config',
              'DATA.BASEDIR="/home/dataset/batch_3_1" MODE_FPN=True "DATA.VAL=("hologram_val",)"  "DATA.TRAIN=("hologram_train",)"',
              '--load-pb', '',
@@ -272,20 +289,21 @@ if __name__ == '__main__':
     elif args.output_serving:
         ModelExporter(predcfg).export_serving(args.output_serving)
 
-    benchmark = args.individual_benchmarking
+    benchmark = args.threshold_benchmark
     if args.load_ckpt:
         pb = False
     else:
         pb = True
 
     # print('is benchmarking : {}'.format(benchmark))
-    multiframe = True
+    multiframe = args.single_frame
     if args.predict:
         if args.load_ckpt:
             print('predict using ckpt model')
             predictor = OfflinePredictor(predcfg)
             print('done loading OfflinePredictor')
             if not benchmark:
+                # run on single frame images --image-to-pred 
                 outpath = args.output_inference
                 if not os.path.exists(outpath):
                     os.makedirs(outpath)
@@ -293,14 +311,15 @@ if __name__ == '__main__':
                 files = [f for f in os.listdir(args.predict[0]) if os.path.isfile(os.path.join(args.predict[0], f))]
                 imgfiles = [f for f in files if
                             f.lower().endswith('.jpg') or f.lower().endswith('.jpeg') or f.lower().endswith('.png')]
-                #                 predictor = OfflinePredictor(predcfg)
                 print('imgfiles {}'.format(imgfiles))
                 for image_file in imgfiles:
                     print(image_file)
-                    viz_output, holo_score = do_predict_ckpt(predictor, '{}{}'.format(args.predict[0], image_file), '{}/{}'.format(outpath, image_file), outpath)
+                    # image_name = getFilename(image_file)
+                    viz_output, final_edge, holo_score = do_predict_ckpt(predictor, '{}{}'.format(args.predict[0], image_file))
+                    cv2.imwrite('{}{}.jpg'.format(outpath, image_file), viz_output)
             else:
                 if not multiframe:
-                    # not multiframe just to check existence of hologram
+                    # singleframe just to check existence of hologram
                     outpath = args.output_inference
                     print(outpath)
                     print(args.predict)
@@ -323,7 +342,7 @@ if __name__ == '__main__':
                             for image in images:
                                 print(image)
                                 image_name = getFilename(image)
-                                viz_output, holo_score = do_predict_ckpt(predictor, image, '{}/{}'.format(outpath, image_name))
+                                viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image)
                                 cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
                                 image_res = [image_name, holo_score]
                                 holo_scores_by_exp.append(image_res)
@@ -366,8 +385,7 @@ if __name__ == '__main__':
                                     # by_dis = []
                                     for image in images:
                                         image_name = getFilename(image)
-                                        viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image,
-                                                                                 '{}/{}'.format(outpath, image_name))
+                                        viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image)
                                         cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
                                         all_holo_scores.append(holo_score)
                                         viz_outputs.append(final_edge)
@@ -394,56 +412,120 @@ if __name__ == '__main__':
                     print('Elapsed benchmarking time : {}'.format(end_benchmarking_time - start_benchmarking_time))
         elif args.load_pb:
             print('predict using pb model')
+            sess, input_tensor, output_tensors = load_session(args.load_pb)
             if not benchmark:
-                sess, input_tensor, output_tensors = load_session(args.load_pb)
+                # run on single frame images --image-to-pred 
+                outpath = args.output_inference
+                if not os.path.exists(outpath):
+                    os.makedirs(outpath)
+                # only applicable to checkpoints model
+                files = [f for f in os.listdir(args.predict[0]) if os.path.isfile(os.path.join(args.predict[0], f))]
+                imgfiles = [f for f in files if
+                            f.lower().endswith('.jpg') or f.lower().endswith('.jpeg') or f.lower().endswith('.png')]
+                print('imgfiles {}'.format(imgfiles))
+                for image_file in imgfiles:
+                    print(image_file)
+                    # image_name = getFilename(image_file)
+                    viz_output, final_edge, holo_score = do_predict_pb(sess, input_tensor, output_tensors, os.path.join(args.predict[0], image_file))
+                    cv2.imwrite('{}{}.jpg'.format(outpath, image_file), viz_output)
             else:
                 outpath = args.output_inference
+                print(outpath)
+                print(args.predict)
+                if not multiframe:
+                    # singleframe just to check existence of hologram
+                    outpath = args.output_inference
+                    print(outpath)
+                    print(args.predict)
+                    parent_folder = glob.glob(os.path.join(args.predict[0], '*'))
+                    for category in parent_folder:
+                        print('now in category : {}'.format(category))
+                        category_name = getFilename(category)
+                        sub_folder = glob.glob(os.path.join(category, '*'))
+                        for exp_res in sub_folder:
+                            exp_res_name = getFilename(exp_res)
+                            if 'no' in exp_res_name:
+                                no_hologram = True
+                            else:
+                                no_hologram = False
+                            images = glob.glob(os.path.join(exp_res, '*'))
+                            det_outpath = '{}/{}/{}/'.format(outpath, category_name, exp_res_name)
+                            if not os.path.exists(det_outpath):
+                                os.makedirs(det_outpath)
+                            holo_scores_by_exp = []
+                            for image in images:
+                                print(image)
+                                image_name = getFilename(image)
+                                # viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image, '{}/{}'.format(outpath, image_name))
+                                viz_output, final_edge, holo_score = do_predict_pb(sess, input_tensor, output_tensors, image)
+                                cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
+                                image_res = [image_name, holo_score]
+                                holo_scores_by_exp.append(image_res)
+                                # break
+                            df = pd.DataFrame(holo_scores_by_exp, columns=['Image Name', 'Holo Scores'])
+                            csv_outpath = '{}/{}'.format(outpath, 'results_csv/')
+                            if not os.path.exists(csv_outpath):
+                                os.makedirs(csv_outpath)
+                            df.to_csv(r'{}{}_{}.csv'.format(csv_outpath, category_name, exp_res_name), index=False)
+                        # break
+                    # break  
+                else:
+                    start_benchmarking_time = datetime.now()
+                    # multiframe just to check results comparing physical and printed
+                    # benchmarking is using 3rd approach - comparing overlapping frames of images
+                    outpath = args.output_inference
+                    print(outpath)
+                    print(args.predict)
+                    parent_folder = glob.glob(os.path.join(args.predict[0], '*'))
+                    # parent_folder contains - printed & physical
+                    for category in parent_folder:
+                        try:
+                            print('now in category : {}'.format(category))
+                            category_name = getFilename(category)
+                            onboarding_IDs = glob.glob(os.path.join(category, '*'))
+                            # onboarding ID contains folder of onboarding id (by 4)
+                            by_category_dist = []
+                            by_category_holo = []
+                            for ob_id in onboarding_IDs:
+                                try:
+                                    print('Category : {}, of : {}'.format(category_name, ob_id))
+                                    images = glob.glob(os.path.join(ob_id, '*'))
+                                    ob_id_name = getFilename(ob_id)
+                                    det_outpath = '{}/{}/{}/'.format(outpath, category_name, ob_id_name)
+                                    if not os.path.exists(det_outpath):
+                                        os.makedirs(det_outpath)
+                                    all_holo_scores = []
+                                    viz_outputs = []
+                                    dist_scores = []
+                                    # by_dis = []
+                                    for image in images:
+                                        image_name = getFilename(image)
+                                        # viz_output, final_edge, holo_score = do_predict_ckpt(predictor, image)
+                                        viz_output, final_edge, holo_score = do_predict_pb(sess, input_tensor, output_tensors, image)
+                                        cv2.imwrite('{}{}.jpg'.format(det_outpath, image_name), viz_output)
+                                        all_holo_scores.append(holo_score)
+                                        viz_outputs.append(final_edge)
 
-
-
-
-    #         elif args.threshold_benchmark:
-    #             outpath = args.output_inference
-    #             if not os.path.exists(outpath):
-    #                 os.makedirs(outpath)
-    #             parent_file = glob.glob(os.path.join(args.threshold_benchmark, '*'))
-    #             data = []
-    #             print('Parent File {}'.format(parent_file))
-    #             predictor = OfflinePredictor(predcfg)
-    #             for file in parent_file:
-    #                 img_folder = glob.glob(os.path.join(file, '*'))
-    #                 f_name = os.path.basename(file)
-    #                 # predictor = OfflinePredictor(predcfg)
-    #                 holo_scores = []
-    #                 print('Img Folder : {}'.format(img_folder))
-    #                 _outpath = outpath + '/' + f_name + '/'
-    #                 try:
-    #                     for img in img_folder:
-    #                         print(img)
-    #                         if not os.path.exists(_outpath):
-    #                             os.makedirs(_outpath)
-    #                         base_name = os.path.basename(img)
-    #                         base_name = os.path.splitext(base_name)[0]
-    #                         holo_score = do_predict_benchmark(predictor, img, _outpath)
-    #                         print('Holo score {}'.format(holo_score))
-    #                         holo_scores.append(holo_score)
-    #                     b_scores1, b_scores2 = cals_difference_score(holo_scores)
-    #                     ind_data = [f_name, b_scores1, b_scores2]
-    #                     data.append(ind_data)
-    #                     # break
-    #                 except:
-    #                     pass
-    #             df = pd.DataFrame(columns=['Onboarding ID','D_S App1.1','D_S App1.2'])
-    #             for d in range(len(data)):
-    #                 # print('D {}'.format(data[d]))
-    #                 df_length = len(df)
-    #                 df.loc[df_length] = data[d]
-    #                 # df = df.append(data[d], ignore_index=True)
-    #             df.to_csv(r'threshold.csv')
-    #             # with open('thresholds.csv', 'w', newline='') as csv_file:
-    #                 # writer = csv.writer(file)
-    #                 # writer.writerows(data)
-    #                 # csv_file.close()
+                                    dist_scores = calc_dist_scores_app3(viz_outputs)
+                                    temp_all_holo_scores = copy.deepcopy(all_holo_scores)
+                                    temp_all_holo_scores.insert(0, ob_id_name)
+                                    temp_dist_scores = copy.deepcopy(dist_scores)
+                                    temp_dist_scores.insert(0, ob_id_name)
+                                    by_category_dist.append(temp_dist_scores)
+                                    by_category_holo.append(temp_all_holo_scores)
+                                except:
+                                    pass
+                            csv_outpath = '{}/{}'.format(outpath, 'results_csv/')
+                            if not os.path.exists(csv_outpath):
+                                os.makedirs(csv_outpath)
+                            df_holo = pd.DataFrame(by_category_holo, columns=['Onboarding ID', 'F1', 'F2', 'F3', 'F4'])
+                            df_dist = pd.DataFrame(by_category_dist, columns=['Onboarding ID', 'F1-F2', 'F2-F3', 'F3-F4'])
+                            df_holo.to_csv(r'{}holo_scores_{}.csv'.format(csv_outpath, category_name), index=False)
+                            df_dist.to_csv(r'{}distance_score_{}.csv'.format(csv_outpath, category_name), index=False)
+                        except:
+                            pass
+                    end_benchmarking_time = datetime.now()
+                    print('Elapsed benchmarking time : {}'.format(end_benchmarking_time - start_benchmarking_time))
 
     elif args.evaluate:
         assert args.evaluate.endswith('.json'), args.evaluate

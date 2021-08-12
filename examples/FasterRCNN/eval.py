@@ -125,7 +125,6 @@ def predict_image_ckpt(img, model_func):
     resized_img = resizer.augment(img)
     scale = np.sqrt(resized_img.shape[0] * 1.0 / img.shape[0] * resized_img.shape[1] / img.shape[1])
     boxes, probs, labels, *masks = model_func(resized_img)
-#     print('Boxes {}, Probs {}, Labels {}, Masks {}'.format(boxes, probs, labels, masks))
 
     # Some slow numpy postprocessing:
     boxes = boxes / scale
@@ -141,6 +140,7 @@ def predict_image_ckpt(img, model_func):
 
     results = [DetectionResult(*args) for args in zip(boxes, probs, labels.tolist(), masks)]
     return results
+
 
 def predict_image_pb(sess, input_tensor, output_tensors, img):
     """
